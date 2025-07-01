@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Event Management Home</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    {% load static %}
+</head>
+<body class="bg-gray-100">
+
+  <!-- Navbar -->
+<nav class="bg-white shadow p-4 flex justify-between items-center">
+  <div class="text-xl font-bold text-indigo-600">MyEventSite</div>
+  <div>
+    <a href="{% url 'home' %}" class="mr-4 hover:text-indigo-700">Home</a>
+    <a href="{% url 'dashboard' %}" class="hover:text-indigo-700">Dashboard</a>
+  </div>
+</nav>
+
+
+  <!-- Heading -->
+  <div class="max-w-7xl mx-auto p-6">
+    <h1 class="text-3xl font-bold mb-6">Upcoming Events</h1>
+
+    {% if events %}
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+      {% for event in events %}
+      <div class="bg-white rounded shadow p-4">
+        <img src="{{ event.image.url }}" alt="{{ event.name }}" class="w-full h-40 object-cover rounded mb-2" />
+        <h2 class="font-semibold text-lg">{{ event.name }}</h2>
+        <p class="text-sm text-gray-600">{{ event.date }}</p>
+        <p class="text-sm text-gray-600">{{ event.location }}</p>
+      </div>
+      {% endfor %}
+    </div>
+    {% else %}
+    <div class="bg-white rounded shadow p-4 w-64">
+      <img src="{% static 'images/default.jpg' %}" alt="No Events Found" class="w-full h-40 object-cover rounded mb-2" />
+      <h2 class="font-semibold text-lg text-center text-gray-700">No Events Available</h2>
+    </div>
+    {% endif %}
+  </div>
+
+</body>
+</html>
