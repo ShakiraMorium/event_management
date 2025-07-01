@@ -1,16 +1,13 @@
-from django.shortcuts import redirect, render
-from .models import Event, Participant
-from .forms import EventForm
-from django.db.models import  Q
+from django.shortcuts import render, redirect, get_object_or_404
+from .models import Event, Participant, Category
+from .forms import EventForm, ParticipantForm, CategoryForm
 from datetime import date
-from django.utils import timezone
 
 
 def home(request):
     event = Event.objects.all() 
     context = {
-        'event': event
-    }
+        'event': event}
     return render(request, "events/home.html", context)
     
 
@@ -99,15 +96,41 @@ def event_delete(request, event_id):
 #     }
 #     return render(request, 'events/dashboard.html', context)
 
-def dashboard(request):
-    today = timezone.now().date()
-    events = Event.objects.all()
+# def dashboard(request):
+#     today = timezone.now().date()
+#     events = Event.objects.all()
 
-    context = {
-        'total_participants': Participant.objects.count(),
-        'total_events': events.count(),
-        'upcoming_events_count': events.filter(date__gt=today).count(),
-        'past_events_count': events.filter(date__lt=today).count(),
-        'todays_events': events.filter(date=today),
-    }
-    return render(request, 'events/dashboard.html', context)
+#     context = {
+#         'total_participants': Participant.objects.count(),
+#         'total_events': events.count(),
+#         'upcoming_events_count': events.filter(date__gt=today).count(),
+#         'past_events_count': events.filter(date__lt=today).count(),
+#         'todays_events': events.filter(date=today),
+#     }
+#     return render(request, 'events/dashboard.html', context)
+
+
+from django.shortcuts import render, redirect, get_object_or_404
+from .models import Event, Participant, Category
+from .forms import EventForm, ParticipantForm, CategoryForm
+from datetime import date
+
+# Dashboard view
+def dashboard(request):
+    total_events = Event.objects.count()
+    total_participants = Participant.objects.count()
+    today = date.today()
+
+    upcoming_events = Event.objects.filter(date__gt=today).count()
+    past_events = Event.objects.filter(date__lt=today).count()
+    todays_events = Event.objects.filter(date=today)
+
+    return render(request, 'events/dashboard.html', {
+        'total_events': total_events,
+        'total_participants': total_participants,
+        'upcoming_events': upcoming_events,
+        'past_events': past_events,
+        'todays_events': todays_events,
+    })
+
+# You can include the CRUD views from earlier here too

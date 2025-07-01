@@ -1,27 +1,18 @@
-{% extends "base.html" %}
+{% extends 'base.html' %}
+{% block title %}All Events{% endblock %}
 {% block content %}
-<div class="max-w-5xl mx-auto py-10">
-  <h1 class="text-2xl font-bold mb-4">Event List</h1>
-  <form method="get" class="mb-6">
-    <input type="text" name="q" value="{{ search }}" placeholder="Search by name or location"
-           class="border border-gray-300 rounded px-3 py-2 w-full" />
-  </form>
+  <h1 class="text-2xl font-bold mb-6">All Events</h1>
 
-  <ul class="space-y-4">
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
     {% for event in events %}
-    <li class="bg-white p-4 shadow rounded">
-      <div class="flex justify-between">
-        <div>
-          <h2 class="font-semibold text-xl">{{ event.name }}</h2>
-          <p class="text-sm text-gray-500">{{ event.location }}</p>
-          <p class="text-sm text-gray-600">Date: {{ event.date }}</p>
-        </div>
-        <a href="{% url 'event_detail' event.id %}" class="text-blue-600 hover:underline">View</a>
+      <div class="bg-white p-4 rounded shadow">
+        <h2 class="text-xl font-semibold">{{ event.name }}</h2>
+        <p class="text-gray-500 text-sm">{{ event.date }} | {{ event.location }}</p>
+        <a href="{% url 'event_update' event.pk %}" class="text-blue-500 hover:underline">Edit</a> |
+        <a href="{% url 'event_delete' event.pk %}" class="text-red-500 hover:underline">Delete</a>
       </div>
-    </li>
     {% empty %}
-    <li>No events found.</li>
+      <p>No events available.</p>
     {% endfor %}
-  </ul>
-</div>
+  </div>
 {% endblock %}
