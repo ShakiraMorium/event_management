@@ -1,0 +1,95 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% if form.instance.pk %}Edit{% else %}Create{% endif %} Event</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/output.css' %}">
+</head>
+<body class="bg-gray-100">
+    <div class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+        <div class="bg-white rounded-lg shadow-lg w-full max-w-2xl p-8 relative">
+            <button onclick="window.location.href='{% url 'event_list' %}'"
+                class="absolute top-3 right-3 text-gray-500 hover:text-gray-800 text-2xl font-bold">&times;</button>
+
+            <h2 class="text-3xl font-bold text-gray-800 text-center mb-8 tracking-tight">
+                {% if form.instance.pk %} Edit Event {% else %} Create New Event {% endif %}
+            </h2>
+            <p class="text-center text-gray-500 mb-6">
+                Please fill out the form below to {% if form.instance.pk %}update the event details{% else %}create a new event{% endif %}.
+            </p>
+                {% if form.instance.pk %} Edit Event {% else %} Create New Event {% endif %}
+            </h2>
+
+            {% if message %}
+                <div class="mb-4 p-4 bg-green-100 text-green-800 border border-green-300 rounded-md">
+                    {{ message }}
+                </div>
+            {% endif %}
+
+            {% if form.errors %}
+                <div class="mb-4 p-4 bg-red-100 text-red-800 border border-red-300 rounded-md">
+                    <strong>There were some problems with your submission:</strong>
+                    <ul class="mt-2 list-disc list-inside">
+                        {% for field in form %}
+                            {% for error in field.errors %}
+                                <li>{{ error }}</li>
+                            {% endfor %}
+                        {% endfor %}
+                        {% for error in form.non_field_errors %}
+                            <li>{{ error }}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            {% endif %}
+
+            <form method="POST" enctype="multipart/form-data" class="space-y-5">
+                {% csrf_token %}
+                
+                {% for field in form %}
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-1">{{ field.label }}</label>
+                        {{ field }}
+
+                        {% if field.name == "image" and form.instance.image %}
+                            <div class="mt-3 mb-2 p-2 bg-gray-50 rounded-md">
+                                <p class="mt-2 text-sm text-gray-500">Current Image:</p>
+                                <img src="{{ form.instance.image.url }}" class="w-40 h-28 object-cover rounded-md mt-1 mx-auto">
+                            </div>
+                        {% endif %}
+
+                        {% if field.name == "image" %}
+                            <img id="imagePreview" src="#" alt="Image Preview"
+                                 class="hidden w-40 h-28 object-cover rounded-md border mt-2">
+                        {% endif %}
+                    </div>
+                {% endfor %}
+
+                <button type="submit" class="w-full bg-rose-600 hover:bg-rose-700 text-white py-2 px-4 rounded-md">
+                    {% if form.instance.pk %} Update Event {% else %} Create Event {% endif %}
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        const imageInput = document.querySelector('input[type="file"]');
+        const imagePreview = document.getElementById('imagePreview');
+
+        if (imageInput) {
+            imageInput.addEventListener('change', function () {
+                const file = this.files[0];
+                if (file) {
+                    const reader = new FileReader();
+                    reader.onload = function (e) {
+                        imagePreview.setAttribute('src', e.target.result);
+                        imagePreview.classList.remove('hidden');
+                    };
+                    reader.readAsDataURL(file);
+                }
+            });
+        }
+    </script>
+</body>
+</html>

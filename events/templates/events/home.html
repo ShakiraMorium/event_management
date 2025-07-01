@@ -9,13 +9,15 @@
 <body class="bg-gray-100">
 
   <!-- Navbar -->
-<nav class="bg-white shadow p-4 flex justify-between items-center">
-  <div class="text-xl font-bold text-indigo-600">MyEventSite</div>
+<!-- base.html -->
+<nav class="bg-blue-600 text-white p-4 flex justify-between">
+  <a href="/" class="font-bold">Event Management</a>
   <div>
-    <a href="{% url 'home' %}" class="mr-4 hover:text-indigo-700">Home</a>
-    <a href="{% url 'dashboard' %}" class="hover:text-indigo-700">Dashboard</a>
+    <a href="{% url 'event_list' %}" class="mr-4">Events</a>
+    <a href="{% url 'dashboard' %}">Dashboard</a>
   </div>
 </nav>
+
 
 
   <!-- Heading -->
@@ -26,20 +28,27 @@
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
       {% for event in events %}
       <div class="bg-white rounded shadow p-4">
-        <img src="{{ event.image.url }}" alt="{{ event.name }}" class="w-full h-40 object-cover rounded mb-2" />
-        <h2 class="font-semibold text-lg">{{ event.name }}</h2>
-        <p class="text-sm text-gray-600">{{ event.date }}</p>
-        <p class="text-sm text-gray-600">{{ event.location }}</p>
+        {% if event.images %}
+        <img src="{{ event.images.url }}" alt="Poster showing {{ event.name }} taking place at {{ event.location }} on {{ event.date }}. The design includes event details in bold text and a festive, inviting setting" class="w-full h-64 object-cover rounded mb-4">
+        {% endif %}
+       <h2 class="text-2xl font-bold mb-2">{{ event.name }}</h2>
+        <p class="text-gray-600 mb-1"><strong>Location:</strong> {{ event.location }}</p>
+        <p class="text-gray-600"><strong>Date:</strong> {{ event.date }}</p>
       </div>
       {% endfor %}
     </div>
     {% else %}
     <div class="bg-white rounded shadow p-4 w-64">
-      <img src="{% static 'images/default.jpg' %}" alt="No Events Found" class="w-full h-40 object-cover rounded mb-2" />
+      <img src="{% static 'image/default.jpg' %}" alt="No Events Found" class="w-full h-40 object-cover rounded mb-2" />
       <h2 class="font-semibold text-lg text-center text-gray-700">No Events Available</h2>
     </div>
     {% endif %}
   </div>
+  <!-- Footer -->
+   <footer class="bg-gray-800 text-white p-4 mt-6">
+    <div class="max-w-7xl mx-auto text-center">
+      <p>&copy; 2023 Event Manager. All rights reserved.</p>
+    </div>
 
 </body>
 </html>
