@@ -1,11 +1,16 @@
 import os
+
+import django
 from events.models import Event, Category, Participant
 from faker import Faker
 import random
 from django.utils import timezone
 
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'event_management.settings')
+django.setup()
 fake = Faker()
 
+from events.models import Category, Event, Participant
 def create_categories(n=5):
     categories = []
     for _ in range(n):
