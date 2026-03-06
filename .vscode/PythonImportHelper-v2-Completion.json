@@ -291,6 +291,15 @@
         "documentation": {}
     },
     {
+        "label": "dj_database_url",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "dj_database_url",
+        "description": "dj_database_url",
+        "detail": "dj_database_url",
+        "documentation": {}
+    },
+    {
         "label": "settings",
         "importPath": "django.conf",
         "description": "django.conf",
@@ -687,7 +696,7 @@
         "kind": 5,
         "importPath": "event_management.settings",
         "description": "event_management.settings",
-        "peekOfCode": "WSGI_APPLICATION = 'event_management.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/5.2/ref/settings/#databases\n# DATABASES = {\n#     'default': {\n#         'ENGINE': 'django.db.backends.sqlite3',\n#         'NAME': BASE_DIR / 'db.sqlite3',\n#     }\n# }\n# For Postgres",
+        "peekOfCode": "WSGI_APPLICATION = 'event_management.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/5.2/ref/settings/#databases\n# DATABASES = {\n#     'default': {\n#         'ENGINE': 'django.db.backends.sqlite3',\n#         'NAME': BASE_DIR / 'db.sqlite3',\n#     }\n# }\nDATABASES = {",
         "detail": "event_management.settings",
         "documentation": {}
     },
@@ -696,7 +705,7 @@
         "kind": 5,
         "importPath": "event_management.settings",
         "description": "event_management.settings",
-        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.postgresql',\n        'NAME': 'event_management',\n        'USER': 'postgres',\n        'PASSWORD': '#postgre1234',\n        'HOST': 'localhost',\n        'PORT': '5432'\n    }\n}",
+        "peekOfCode": "DATABASES = {\n    'default': dj_database_url.config(\n        default='postgresql://event_manager_oyli_user:u93a9HDBDOKilc8CpztPk1X7ufMueBez@dpg-d6li26kr85hc738sa30g-a.oregon-postgres.render.com/event_manager_oyli',\n        conn_max_age=600\n    )\n}\n# For Postgres\n# DATABASES = {\n#     'default': {\n#         'ENGINE': 'django.db.backends.postgresql',",
         "detail": "event_management.settings",
         "documentation": {}
     },
