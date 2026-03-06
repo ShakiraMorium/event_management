@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Event Management{% endblock %}</title>
+    {% load static %}
+    <link href="{% static 'css/styles.css' %}" rel="stylesheet">
+</head>
+<body class="bg-gray-100 min-h-screen font-sans">
+
+    <!-- Navbar -->
+    <nav class="bg-white shadow p-4 mb-6">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="{% url 'event_list' %}" class="text-xl font-bold text-blue-600">EventMgmt</a>
+            <div>
+                <a href="{% url 'event_list' %}" class="mr-4 hover:text-blue-500">Events</a>
+                <a href="{% url 'event_create' %}" class="hover:text-blue-500">Create Event</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main content -->
+    <main class="container mx-auto px-4">
+        {% block content %}
+        {% endblock %}
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-white shadow mt-10 p-4 text-center text-gray-500">
+        &copy; {{ now|date:"Y" }} Event Management
+    </footer>
+
+</body>
+</html>

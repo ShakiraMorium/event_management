@@ -6,6 +6,6 @@ urlpatterns = [
     path('events/create/', views.event_create, name='event_create'),
     path('events/<int:pk>/edit/', views.event_update, name='event_update'),
     path('events/<int:pk>/delete/', views.event_delete, name='event_delete'),
-
+    path('events/<int:pk>/', views.event_detail, name='event_detail'),  # <-- Add this
     path('dashboard/', views.dashboard, name='dashboard'),  
 ]
