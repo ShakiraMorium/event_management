@@ -86,15 +86,15 @@
             <h3 class="text-lg font-bold text-indigo-600">{{ event.name }}</h3>
 
             <p class="text-sm text-gray-600">
-              📅 {{ event.date }} at {{ event.time }}
+              {{ event.date }} at {{ event.time }}
             </p>
 
-            <p class="text-sm text-gray-600">📍 {{ event.location }}</p>
+            <p class="text-sm text-gray-600"> {{ event.location }}</p>
 
-            <p class="text-sm text-gray-600">🏷 {{ event.category.name }}</p>
+            <p class="text-sm text-gray-600" >{{ event.category.name }}</p>
 
             <p class="text-sm text-gray-600 mb-3">
-              👥 {{ event.participant_set.count }} Participants
+               {{ event.participant_set.count }} Participants
             </p>
 
             <a
