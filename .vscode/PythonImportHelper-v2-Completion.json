@@ -674,6 +674,15 @@
         "documentation": {}
     },
     {
+        "label": "STATICFILES_STORAGE",
+        "kind": 5,
+        "importPath": "event_management.settings",
+        "description": "event_management.settings",
+        "peekOfCode": "STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'\nROOT_URLCONF = 'event_management.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [BASE_DIR / 'templates'],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                 'django.template.context_processors.debug',",
+        "detail": "event_management.settings",
+        "documentation": {}
+    },
+    {
         "label": "ROOT_URLCONF",
         "kind": 5,
         "importPath": "event_management.settings",
