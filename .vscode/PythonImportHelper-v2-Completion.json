@@ -73,6 +73,30 @@
         "documentation": {}
     },
     {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
         "label": "models",
         "importPath": "django.db",
         "description": "django.db",
@@ -455,6 +479,24 @@
         "description": "events.migrations.0004_event_image",
         "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('events', '0003_remove_event_description_remove_event_image_and_more'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='event',\n            name='image',\n            field=models.ImageField(blank=True, null=True, upload_to='events/'),\n        ),",
         "detail": "events.migrations.0004_event_image",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "events.migrations.0005_remove_event_time",
+        "description": "events.migrations.0005_remove_event_time",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('events', '0004_event_image'),\n    ]\n    operations = [\n        migrations.RemoveField(\n            model_name='event',\n            name='time',\n        ),\n    ]",
+        "detail": "events.migrations.0005_remove_event_time",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "events.migrations.0006_event_time",
+        "description": "events.migrations.0006_event_time",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('events', '0005_remove_event_time'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='event',\n            name='time',\n            field=models.TimeField(default='00:00'),\n            preserve_default=False,",
+        "detail": "events.migrations.0006_event_time",
         "documentation": {}
     },
     {
