@@ -1,0 +1,43 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+
+<!-- Navbar -->
+<nav class="bg-white shadow-md">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+        <h1 class="text-2xl font-bold text-indigo-600">Event Manager</h1>
+        <div class="flex gap-6 items-center">
+            <a href="{% url 'dashboard' %}" class="text-gray-600 hover:text-indigo-600 font-medium">Dashboard</a>
+            <form method="post" action="{% url 'logout' %}">
+                {% csrf_token %}
+                <button class="text-gray-600 hover:text-red-600 font-medium">Logout</button>
+            </form>
+        </div>
+    </div>
+</nav>
+
+<div class="max-w-7xl mx-auto p-6">
+    <h2 class="text-3xl font-bold text-gray-800 mb-4">Admin Dashboard</h2>
+    <p class="text-gray-500 mb-6">Welcome, {{ profile.user.username }}. Manage users and events.</p>
+    
+    <!-- Stats example -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg">
+            <p class="text-gray-500 text-sm">Total Users</p>
+            <h3 class="text-3xl font-bold text-indigo-600 mt-2">{{ total_users }}</h3>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg">
+            <p class="text-gray-500 text-sm">Total Events</p>
+            <h3 class="text-3xl font-bold text-green-600 mt-2">{{ total_events }}</h3>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

@@ -10,179 +10,124 @@
 
 <!-- Navbar -->
 <nav class="bg-white shadow-md">
-    <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+  <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+    <h1 class="text-2xl font-bold text-indigo-600">Event Manager</h1>
 
-        <h1 class="text-2xl font-bold text-indigo-600">
-            Event Manager
-        </h1>
+    <div class="flex gap-6 items-center">
+      <a href="{% url 'dashboard_view' %}" class="text-gray-600 hover:text-indigo-600 font-medium">Dashboard</a>
+      <a href="{% url 'event_list' %}" class="text-gray-600 hover:text-indigo-600 font-medium">Events</a>
 
-        <div class="flex gap-6 items-center">
-
-            <a href="{% url 'dashboard' %}" class="text-gray-600 hover:text-indigo-600 font-medium">
-                Dashboard
-            </a>
-
-            <a href="{% url 'event_list' %}" class="text-gray-600 hover:text-indigo-600 font-medium">
-                Events
-            </a>
-
-            <a href="{% url 'event_create' %}" 
-               class="bg-indigo-600 text-white px-4 py-2 rounded-lg hover:bg-indigo-700">
-                + Add Event
-            </a>
-
-        </div>
+      <!-- Profile dropdown -->
+      <div class="flex items-center gap-2">
+        <img src="{{ request.user.profile.avatar.url }}" alt="avatar" class="w-10 h-10 rounded-full border">
+        <span class="text-gray-700 font-medium">{{ request.user.username }}</span>
+        <a href="{% url 'logout' %}" class="text-red-500 hover:underline ml-2">Logout</a>
+      </div>
     </div>
+  </div>
 </nav>
-
 
 <div class="max-w-7xl mx-auto p-6">
 
-<!-- Page Title -->
-<div class="mb-6">
-<h2 class="text-3xl font-bold text-gray-800">
-Organizer Dashboard
-</h2>
-<p class="text-gray-500">
-Manage events, participants and track statistics
-</p>
-</div>
+    <!-- User Profile Card -->
+    <div class="bg-white p-6 rounded-xl shadow mb-6 flex items-center">
+        {% if profile.avatar %}
+            <img src="{{ profile.avatar.url }}" alt="Avatar" class="w-16 h-16 rounded-full mr-4">
+        {% else %}
+            <div class="w-16 h-16 rounded-full bg-gray-300 mr-4 flex items-center justify-center text-gray-600">
+                {{ profile.user.username|slice:":1"|upper }}
+            </div>
+        {% endif %}
+        <div>
+            <h2 class="font-bold text-xl">{{ profile.user.username }}</h2>
+            <p class="text-gray-500">{{ profile.bio }}</p>
+            {% if profile.phone %}
+            <p class="text-gray-400">📞 {{ profile.phone }}</p>
+            {% endif %}
+            <p class="text-gray-400">Role: 
+                {% if is_admin %}Admin{% elif is_organizer %}Organizer{% else %}Participant{% endif %}
+            </p>
+        </div>
+    </div>
 
-<!-- Stats Cards -->
-<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
+    <!-- Page Title -->
+    <div class="mb-6">
+        <h2 class="text-3xl font-bold text-gray-800">
+            Dashboard
+        </h2>
+        <p class="text-gray-500">
+            Manage events, participants and track statistics
+        </p>
+    </div>
 
-<!-- Total Events -->
-<a href="?filter=all" class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
+    <!-- Stats Cards -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
 
-<p class="text-gray-500 text-sm">Total Events</p>
+        <!-- Total Events -->
+        <a href="?filter=all" class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
+            <p class="text-gray-500 text-sm">Total Events</p>
+            <h3 class="text-3xl font-bold text-indigo-600 mt-2">{{ total_events }}</h3>
+        </a>
 
-<h3 class="text-3xl font-bold text-indigo-600 mt-2">
-{{ total_events }}
-</h3>
+        <!-- Today's Events -->
+        <a href="?filter=today" class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
+            <p class="text-gray-500 text-sm">Today's Events</p>
+            <h3 class="text-3xl font-bold text-green-600 mt-2">{{ todays_events.count }}</h3>
+        </a>
 
-</a>
+        <!-- Upcoming Events -->
+        <a href="?filter=upcoming" class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
+            <p class="text-gray-500 text-sm">Upcoming Events</p>
+            <h3 class="text-3xl font-bold text-blue-600 mt-2">{{ upcoming_events_count }}</h3>
+        </a>
 
+        <!-- Past Events -->
+        <a href="?filter=past" class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
+            <p class="text-gray-500 text-sm">Past Events</p>
+            <h3 class="text-3xl font-bold text-red-500 mt-2">{{ past_events_count }}</h3>
+        </a>
 
-<!-- Today's Events -->
-<a href="?filter=today" class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
+    </div>
 
-<p class="text-gray-500 text-sm">Today's Events</p>
+    <!-- Section Title -->
+    <div class="flex justify-between items-center mb-4">
+        <h3 class="text-xl font-semibold text-gray-700">
+            {% if active_filter == "all" %}
+                All Events
+            {% elif active_filter == "upcoming" %}
+                Upcoming Events
+            {% elif active_filter == "past" %}
+                Past Events
+            {% else %}
+                Today's Events
+            {% endif %}
+        </h3>
+    </div>
 
-<h3 class="text-3xl font-bold text-green-600 mt-2">
-{{ todays_events.count }}
-</h3>
+    <!-- Events Grid -->
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
 
-</a>
+        {% for event in events %}
+            <div class="bg-white rounded-xl shadow hover:shadow-lg transition p-5">
+                <h4 class="text-lg font-bold text-indigo-600 mb-2">{{ event.name }}</h4>
+                <p class="text-sm text-gray-600 mb-1">{{ event.date }} at {{ event.time }}</p>
+                <p class="text-sm text-gray-600 mb-1">{{ event.location }}</p>
+                <p class="text-sm text-gray-600 mb-1">Category: {{ event.category.name }}</p>
+                <p class="text-sm text-gray-600 mb-3">Participants: {{ event.participant_set.count }}</p>
 
+                <div class="flex gap-3 mt-3">
+                    <a href="{% url 'event_detail' event.id %}" class="text-indigo-600 text-sm font-medium hover:underline">View</a>
+                    <a href="{% url 'event_update' event.id %}" class="text-green-600 text-sm font-medium hover:underline">Edit</a>
+                    <a href="{% url 'event_delete' event.id %}" class="text-red-500 text-sm font-medium hover:underline">Delete</a>
+                </div>
+            </div>
+        {% empty %}
+            <div class="col-span-full text-center py-10">
+                <p class="text-gray-500 text-lg">No events found for this filter</p>
+            </div>
+        {% endfor %}
 
-<!-- Upcoming Events -->
-<a href="?filter=upcoming" class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
-
-<p class="text-gray-500 text-sm">Upcoming Events</p>
-
-<h3 class="text-3xl font-bold text-blue-600 mt-2">
-{{ upcoming_events_count }}
-</h3>
-
-</a>
-
-
-<!-- Past Events -->
-<a href="?filter=past" class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
-
-<p class="text-gray-500 text-sm">Past Events</p>
-
-<h3 class="text-3xl font-bold text-red-500 mt-2">
-{{ past_events_count }}
-</h3>
-
-</a>
-
-</div>
-
-
-<!-- Section Title -->
-<div class="flex justify-between items-center mb-4">
-
-<h3 class="text-xl font-semibold text-gray-700">
-
-{% if active_filter == "all" %}
-All Events
-{% elif active_filter == "upcoming" %}
-Upcoming Events
-{% elif active_filter == "past" %}
-Past Events
-{% else %}
-Today's Events
-{% endif %}
-
-</h3>
-
-</div>
-
-
-<!-- Events Grid -->
-<div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-
-{% for event in events %}
-
-<div class="bg-white rounded-xl shadow hover:shadow-lg transition p-5">
-
-<h4 class="text-lg font-bold text-indigo-600 mb-2">
-{{ event.name }}
-</h4>
-
-<p class="text-sm text-gray-600 mb-1">
-📅 {{ event.date }} at {{ event.time }}
-</p>
-
-<p class="text-sm text-gray-600 mb-1">
-📍 {{ event.location }}
-</p>
-
-<p class="text-sm text-gray-600 mb-1">
-🏷 Category: {{ event.category.name }}
-</p>
-
-<p class="text-sm text-gray-600 mb-3">
-👥 Participants: {{ event.participant_set.count }}
-</p>
-
-
-<div class="flex gap-3 mt-3">
-
-<a href="{% url 'event_detail' event.id %}"
-class="text-indigo-600 text-sm font-medium hover:underline">
-View
-</a>
-
-<a href="{% url 'event_update' event.id %}"
-class="text-green-600 text-sm font-medium hover:underline">
-Edit
-</a>
-
-<a href="{% url 'event_delete' event.id %}"
-class="text-red-500 text-sm font-medium hover:underline">
-Delete
-</a>
-
-</div>
-
-</div>
-
-{% empty %}
-
-<div class="col-span-full text-center py-10">
-
-<p class="text-gray-500 text-lg">
-No events found for this filter
-</p>
-
-</div>
-
-{% endfor %}
-
-</div>
+    </div>
 
 </div>
 

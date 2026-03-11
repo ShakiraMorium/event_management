@@ -1,0 +1,115 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign Up | Event Manager</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen">
+
+<div class="w-full max-w-md bg-white rounded-xl shadow-lg p-8">
+
+    <!-- Logo / Title -->
+    <div class="text-center mb-6">
+        <h1 class="text-3xl font-bold text-indigo-600">Event Manager</h1>
+        <p class="text-gray-500 mt-2">Create your account and start managing events</p>
+    </div>
+
+    <!-- Form -->
+    <form method="POST" enctype="multipart/form-data" class="space-y-5">
+        {% csrf_token %}
+
+        <!-- Username -->
+        <div>
+            <label class="block text-gray-700 font-medium">Username</label>
+            <input type="text" name="username" value="{{ form.username.value }}" 
+                   class="mt-1 w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-400"
+                   placeholder="Enter your username">
+            {% if form.username.errors %}
+                <p class="text-red-500 text-sm mt-1">{{ form.username.errors.0 }}</p>
+            {% endif %}
+        </div>
+
+        <!-- Email -->
+        <div>
+            <label class="block text-gray-700 font-medium">Email</label>
+            <input type="email" name="email" value="{{ form.email.value }}" 
+                   class="mt-1 w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-400"
+                   placeholder="Enter your email">
+            {% if form.email.errors %}
+                <p class="text-red-500 text-sm mt-1">{{ form.email.errors.0 }}</p>
+            {% endif %}
+        </div>
+
+        <!-- Phone -->
+        <div>
+            <label class="block text-gray-700 font-medium">Phone</label>
+            <input type="text" name="phone" value="{{ form.phone.value }}" 
+                   class="mt-1 w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-400"
+                   placeholder="Enter your phone number">
+            {% if form.phone.errors %}
+                <p class="text-red-500 text-sm mt-1">{{ form.phone.errors.0 }}</p>
+            {% endif %}
+        </div>
+
+        <!-- Avatar -->
+        <div>
+            <label class="block text-gray-700 font-medium">Profile Picture</label>
+            <input type="file" name="avatar" class="mt-1 w-full text-gray-700">
+            {% if form.avatar.errors %}
+                <p class="text-red-500 text-sm mt-1">{{ form.avatar.errors.0 }}</p>
+            {% endif %}
+        </div>
+
+        <!-- Password -->
+        <div>
+            <label class="block text-gray-700 font-medium">Password</label>
+            <input type="password" name="password1"
+                   class="mt-1 w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-400"
+                   placeholder="Enter password">
+            {% if form.password1.errors %}
+                <p class="text-red-500 text-sm mt-1">{{ form.password1.errors.0 }}</p>
+            {% endif %}
+        </div>
+
+        <!-- Confirm Password -->
+        <div>
+            <label class="block text-gray-700 font-medium">Confirm Password</label>
+            <input type="password" name="password2"
+                   class="mt-1 w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-400"
+                   placeholder="Confirm password">
+            {% if form.password2.errors %}
+                <p class="text-red-500 text-sm mt-1">{{ form.password2.errors.0 }}</p>
+            {% endif %}
+        </div>
+
+        <!-- Role Selection -->
+        <div>
+            <label class="block text-gray-700 font-medium">Role</label>
+            <select name="role" class="mt-1 w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-400">
+                <option value="Participant" {% if form.role.value == "Participant" %}selected{% endif %}>Participant</option>
+                <option value="Organizer" {% if form.role.value == "Organizer" %}selected{% endif %}>Organizer</option>
+            </select>
+            {% if form.role.errors %}
+                <p class="text-red-500 text-sm mt-1">{{ form.role.errors.0 }}</p>
+            {% endif %}
+        </div>
+
+        <!-- Submit -->
+        <button type="submit" 
+                class="w-full bg-indigo-600 text-white py-2 rounded-lg font-medium hover:bg-indigo-700 transition">
+            Sign Up
+        </button>
+
+        <!-- Login link -->
+        <p class="text-gray-500 text-center mt-4">
+            Already have an account? 
+            <a href="{% url 'login' %}" class="text-indigo-600 hover:underline">Login</a>
+        </p>
+    </form>
+
+</div>
+
+</body>
+</html>
