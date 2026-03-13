@@ -1,16 +1,30 @@
 from django.urls import path
-from . import views
-from .views import signup_view, login_view, logout_view, dashboard_view
+from events.views import (
+
+manager_dashboard,
+employee_dashboard,
+create_event,
+view_event,
+update_event,
+delete_event,
+event_details,
+dashboard
+)
 
 urlpatterns = [
-    path('events/', views.event_list, name='event_list'),
-    path('events/create/', views.event_create, name='event_create'),
-    path('events/<int:pk>/edit/', views.event_update, name='event_update'),
-    path('events/<int:pk>/delete/', views.event_delete, name='event_delete'),
-    path('events/<int:pk>/', views.event_detail, name='event_detail'), 
-    path("accounts/dashboard/view/", dashboard_view, name="dashboard_view"),  # ✅ comma added
-    path('dashboard/', dashboard_view, name='dashboard'),  # ✅
-    path('signup/', signup_view, name='signup'),
-    path('login/', login_view, name='login'),
-    path('logout/', logout_view, name='logout'),
+   path('manager-dashboard/', manager_dashboard, name="manager-dashboard"),
+   path('user-dashboard/', employee_dashboard, name='user-dashboard'),
+
+
+   path('create-event/', create_event, name='create-event'),
+   path('view_event/', view_event),
+
+   path('event/<int:event_id>/details/', event_details, name='event-details'),
+
+   path('update-event/<int:id>/', update_event, name='update-event'),
+   path('delete-event/<int:id>/', delete_event, name='delete-event'),
+
+   path('dashboard/', dashboard, name='dashboard')
+
+
 ]

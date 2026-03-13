@@ -1,5 +1,221 @@
 [
     {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "messages",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "messages",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "messages",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "HttpResponse",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
         "label": "django.db.models.deletion",
         "kind": 6,
         "isExtraImport": true,
@@ -9,174 +225,6 @@
         "documentation": {}
     },
     {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
         "label": "settings",
         "importPath": "django.conf",
         "description": "django.conf",
@@ -209,59 +257,107 @@
         "documentation": {}
     },
     {
-        "label": "settings",
-        "importPath": "django.conf",
-        "description": "django.conf",
+        "label": "Event",
+        "importPath": "events.models",
+        "description": "events.models",
         "isExtraImport": true,
-        "detail": "django.conf",
+        "detail": "events.models",
         "documentation": {}
     },
     {
-        "label": "admin",
-        "importPath": "django.contrib",
-        "description": "django.contrib",
+        "label": "EventDetail",
+        "importPath": "events.models",
+        "description": "events.models",
         "isExtraImport": true,
-        "detail": "django.contrib",
+        "detail": "events.models",
         "documentation": {}
     },
     {
-        "label": "admin",
-        "importPath": "django.contrib",
-        "description": "django.contrib",
+        "label": "Project",
+        "importPath": "events.models",
+        "description": "events.models",
         "isExtraImport": true,
-        "detail": "django.contrib",
+        "detail": "events.models",
         "documentation": {}
     },
     {
-        "label": "admin",
-        "importPath": "django.contrib",
-        "description": "django.contrib",
+        "label": "Event",
+        "importPath": "events.models",
+        "description": "events.models",
         "isExtraImport": true,
-        "detail": "django.contrib",
+        "detail": "events.models",
         "documentation": {}
     },
     {
-        "label": "admin",
-        "importPath": "django.contrib",
-        "description": "django.contrib",
+        "label": "EventDetail",
+        "importPath": "events.models",
+        "description": "events.models",
         "isExtraImport": true,
-        "detail": "django.contrib",
+        "detail": "events.models",
         "documentation": {}
     },
     {
-        "label": "AppConfig",
-        "importPath": "django.apps",
-        "description": "django.apps",
+        "label": "Event",
+        "importPath": "events.models",
+        "description": "events.models",
         "isExtraImport": true,
-        "detail": "django.apps",
+        "detail": "events.models",
         "documentation": {}
     },
     {
-        "label": "AppConfig",
-        "importPath": "django.apps",
-        "description": "django.apps",
+        "label": "Event",
+        "importPath": "events.models",
+        "description": "events.models",
         "isExtraImport": true,
-        "detail": "django.apps",
+        "detail": "events.models",
+        "documentation": {}
+    },
+    {
+        "label": "EventDetail",
+        "importPath": "events.models",
+        "description": "events.models",
+        "isExtraImport": true,
+        "detail": "events.models",
+        "documentation": {}
+    },
+    {
+        "label": "Project",
+        "importPath": "events.models",
+        "description": "events.models",
+        "isExtraImport": true,
+        "detail": "events.models",
+        "documentation": {}
+    },
+    {
+        "label": "Organizer",
+        "importPath": "events.models",
+        "description": "events.models",
+        "isExtraImport": true,
+        "detail": "events.models",
+        "documentation": {}
+    },
+    {
+        "label": "Event",
+        "importPath": "events.models",
+        "description": "events.models",
+        "isExtraImport": true,
+        "detail": "events.models",
+        "documentation": {}
+    },
+    {
+        "label": "EventDetail",
+        "importPath": "events.models",
+        "description": "events.models",
+        "isExtraImport": true,
+        "detail": "events.models",
+        "documentation": {}
+    },
+    {
+        "label": "Category",
+        "importPath": "events.models",
+        "description": "events.models",
+        "isExtraImport": true,
+        "detail": "events.models",
         "documentation": {}
     },
     {
@@ -290,83 +386,323 @@
         "documentation": {}
     },
     {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "Permission",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "Group",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "Group",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "Group",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "post_save",
+        "importPath": "django.db.models.signals",
+        "description": "django.db.models.signals",
+        "isExtraImport": true,
+        "detail": "django.db.models.signals",
+        "documentation": {}
+    },
+    {
+        "label": "pre_save",
+        "importPath": "django.db.models.signals",
+        "description": "django.db.models.signals",
+        "isExtraImport": true,
+        "detail": "django.db.models.signals",
+        "documentation": {}
+    },
+    {
+        "label": "m2m_changed",
+        "importPath": "django.db.models.signals",
+        "description": "django.db.models.signals",
+        "isExtraImport": true,
+        "detail": "django.db.models.signals",
+        "documentation": {}
+    },
+    {
+        "label": "post_delete",
+        "importPath": "django.db.models.signals",
+        "description": "django.db.models.signals",
+        "isExtraImport": true,
+        "detail": "django.db.models.signals",
+        "documentation": {}
+    },
+    {
+        "label": "post_save",
+        "importPath": "django.db.models.signals",
+        "description": "django.db.models.signals",
+        "isExtraImport": true,
+        "detail": "django.db.models.signals",
+        "documentation": {}
+    },
+    {
+        "label": "receiver",
+        "importPath": "django.dispatch",
+        "description": "django.dispatch",
+        "isExtraImport": true,
+        "detail": "django.dispatch",
+        "documentation": {}
+    },
+    {
+        "label": "receiver",
+        "importPath": "django.dispatch",
+        "description": "django.dispatch",
+        "isExtraImport": true,
+        "detail": "django.dispatch",
+        "documentation": {}
+    },
+    {
+        "label": "send_mail",
+        "importPath": "django.core.mail",
+        "description": "django.core.mail",
+        "isExtraImport": true,
+        "detail": "django.core.mail",
+        "documentation": {}
+    },
+    {
+        "label": "send_mail",
+        "importPath": "django.core.mail",
+        "description": "django.core.mail",
+        "isExtraImport": true,
+        "detail": "django.core.mail",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "manager_dashboard",
+        "importPath": "events.views",
+        "description": "events.views",
+        "isExtraImport": true,
+        "detail": "events.views",
+        "documentation": {}
+    },
+    {
+        "label": "employee_dashboard",
+        "importPath": "events.views",
+        "description": "events.views",
+        "isExtraImport": true,
+        "detail": "events.views",
+        "documentation": {}
+    },
+    {
+        "label": "create_event",
+        "importPath": "events.views",
+        "description": "events.views",
+        "isExtraImport": true,
+        "detail": "events.views",
+        "documentation": {}
+    },
+    {
+        "label": "view_event",
+        "importPath": "events.views",
+        "description": "events.views",
+        "isExtraImport": true,
+        "detail": "events.views",
+        "documentation": {}
+    },
+    {
+        "label": "update_event",
+        "importPath": "events.views",
+        "description": "events.views",
+        "isExtraImport": true,
+        "detail": "events.views",
+        "documentation": {}
+    },
+    {
+        "label": "delete_event",
+        "importPath": "events.views",
+        "description": "events.views",
+        "isExtraImport": true,
+        "detail": "events.views",
+        "documentation": {}
+    },
+    {
+        "label": "event_details",
+        "importPath": "events.views",
+        "description": "events.views",
+        "isExtraImport": true,
+        "detail": "events.views",
+        "documentation": {}
+    },
+    {
+        "label": "dashboard",
+        "importPath": "events.views",
+        "description": "events.views",
+        "isExtraImport": true,
+        "detail": "events.views",
+        "documentation": {}
+    },
+    {
+        "label": "home",
+        "importPath": "events.views",
+        "description": "events.views",
+        "isExtraImport": true,
+        "detail": "events.views",
+        "documentation": {}
+    },
+    {
+        "label": "home_view",
+        "importPath": "events.views",
+        "description": "events.views",
+        "isExtraImport": true,
+        "detail": "events.views",
+        "documentation": {}
+    },
+    {
+        "label": "HttpResponse",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "EventForm",
+        "importPath": "events.forms",
+        "description": "events.forms",
+        "isExtraImport": true,
+        "detail": "events.forms",
+        "documentation": {}
+    },
+    {
+        "label": "EventModelForm",
+        "importPath": "events.forms",
+        "description": "events.forms",
+        "isExtraImport": true,
+        "detail": "events.forms",
+        "documentation": {}
+    },
+    {
+        "label": "EventDetailModelForm",
+        "importPath": "events.forms",
+        "description": "events.forms",
+        "isExtraImport": true,
+        "detail": "events.forms",
+        "documentation": {}
+    },
+    {
+        "label": "StyledFormMixin",
+        "importPath": "events.forms",
+        "description": "events.forms",
+        "isExtraImport": true,
+        "detail": "events.forms",
+        "documentation": {}
+    },
+    {
         "label": "date",
         "importPath": "datetime",
         "description": "datetime",
         "isExtraImport": true,
         "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "slugify",
-        "importPath": "django.utils.text",
-        "description": "django.utils.text",
-        "isExtraImport": true,
-        "detail": "django.utils.text",
-        "documentation": {}
-    },
-    {
-        "label": "TestCase",
-        "importPath": "django.test",
-        "description": "django.test",
-        "isExtraImport": true,
-        "detail": "django.test",
-        "documentation": {}
-    },
-    {
-        "label": "TestCase",
-        "importPath": "django.test",
-        "description": "django.test",
-        "isExtraImport": true,
-        "detail": "django.test",
-        "documentation": {}
-    },
-    {
-        "label": "path",
-        "importPath": "django.urls",
-        "description": "django.urls",
-        "isExtraImport": true,
-        "detail": "django.urls",
-        "documentation": {}
-    },
-    {
-        "label": "path",
-        "importPath": "django.urls",
-        "description": "django.urls",
-        "isExtraImport": true,
-        "detail": "django.urls",
-        "documentation": {}
-    },
-    {
-        "label": "include",
-        "importPath": "django.urls",
-        "description": "django.urls",
-        "isExtraImport": true,
-        "detail": "django.urls",
-        "documentation": {}
-    },
-    {
-        "label": "path",
-        "importPath": "django.urls",
-        "description": "django.urls",
-        "isExtraImport": true,
-        "detail": "django.urls",
-        "documentation": {}
-    },
-    {
-        "label": "include",
-        "importPath": "django.urls",
-        "description": "django.urls",
-        "isExtraImport": true,
-        "detail": "django.urls",
-        "documentation": {}
-    },
-    {
-        "label": "path",
-        "importPath": "django.urls",
-        "description": "django.urls",
-        "isExtraImport": true,
-        "detail": "django.urls",
         "documentation": {}
     },
     {
@@ -378,51 +714,43 @@
         "documentation": {}
     },
     {
-        "label": "render",
-        "importPath": "django.shortcuts",
-        "description": "django.shortcuts",
+        "label": "Count",
+        "importPath": "django.db.models",
+        "description": "django.db.models",
         "isExtraImport": true,
-        "detail": "django.shortcuts",
+        "detail": "django.db.models",
         "documentation": {}
     },
     {
-        "label": "redirect",
-        "importPath": "django.shortcuts",
-        "description": "django.shortcuts",
+        "label": "Max",
+        "importPath": "django.db.models",
+        "description": "django.db.models",
         "isExtraImport": true,
-        "detail": "django.shortcuts",
+        "detail": "django.db.models",
         "documentation": {}
     },
     {
-        "label": "get_object_or_404",
-        "importPath": "django.shortcuts",
-        "description": "django.shortcuts",
+        "label": "Min",
+        "importPath": "django.db.models",
+        "description": "django.db.models",
         "isExtraImport": true,
-        "detail": "django.shortcuts",
+        "detail": "django.db.models",
         "documentation": {}
     },
     {
-        "label": "render",
-        "importPath": "django.shortcuts",
-        "description": "django.shortcuts",
+        "label": "Avg",
+        "importPath": "django.db.models",
+        "description": "django.db.models",
         "isExtraImport": true,
-        "detail": "django.shortcuts",
+        "detail": "django.db.models",
         "documentation": {}
     },
     {
-        "label": "redirect",
-        "importPath": "django.shortcuts",
-        "description": "django.shortcuts",
+        "label": "Prefetch",
+        "importPath": "django.db.models",
+        "description": "django.db.models",
         "isExtraImport": true,
-        "detail": "django.shortcuts",
-        "documentation": {}
-    },
-    {
-        "label": "login_required",
-        "importPath": "django.contrib.auth.decorators",
-        "description": "django.contrib.auth.decorators",
-        "isExtraImport": true,
-        "detail": "django.contrib.auth.decorators",
+        "detail": "django.db.models",
         "documentation": {}
     },
     {
@@ -442,6 +770,22 @@
         "documentation": {}
     },
     {
+        "label": "permission_required",
+        "importPath": "django.contrib.auth.decorators",
+        "description": "django.contrib.auth.decorators",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "login_required",
+        "importPath": "django.contrib.auth.decorators",
+        "description": "django.contrib.auth.decorators",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.decorators",
+        "documentation": {}
+    },
+    {
         "label": "user_passes_test",
         "importPath": "django.contrib.auth.decorators",
         "description": "django.contrib.auth.decorators",
@@ -450,291 +794,75 @@
         "documentation": {}
     },
     {
-        "label": "timezone",
-        "importPath": "django.utils",
-        "description": "django.utils",
+        "label": "is_admin",
+        "importPath": "users.views",
+        "description": "users.views",
         "isExtraImport": true,
-        "detail": "django.utils",
+        "detail": "users.views",
         "documentation": {}
     },
     {
-        "label": "timezone",
-        "importPath": "django.utils",
-        "description": "django.utils",
+        "label": "sign_up",
+        "importPath": "users.views",
+        "description": "users.views",
         "isExtraImport": true,
-        "detail": "django.utils",
+        "detail": "users.views",
         "documentation": {}
     },
     {
-        "label": "timezone",
-        "importPath": "django.utils",
-        "description": "django.utils",
+        "label": "sign_in",
+        "importPath": "users.views",
+        "description": "users.views",
         "isExtraImport": true,
-        "detail": "django.utils",
+        "detail": "users.views",
         "documentation": {}
     },
     {
-        "label": "User",
-        "importPath": "django.contrib.auth.models",
-        "description": "django.contrib.auth.models",
+        "label": "sign_out",
+        "importPath": "users.views",
+        "description": "users.views",
         "isExtraImport": true,
-        "detail": "django.contrib.auth.models",
+        "detail": "users.views",
         "documentation": {}
     },
     {
-        "label": "Group",
-        "importPath": "django.contrib.auth.models",
-        "description": "django.contrib.auth.models",
+        "label": "activate_user",
+        "importPath": "users.views",
+        "description": "users.views",
         "isExtraImport": true,
-        "detail": "django.contrib.auth.models",
+        "detail": "users.views",
         "documentation": {}
     },
     {
-        "label": "User",
-        "importPath": "django.contrib.auth.models",
-        "description": "django.contrib.auth.models",
+        "label": "admin_dashboard",
+        "importPath": "users.views",
+        "description": "users.views",
         "isExtraImport": true,
-        "detail": "django.contrib.auth.models",
+        "detail": "users.views",
         "documentation": {}
     },
     {
-        "label": "User",
-        "importPath": "django.contrib.auth.models",
-        "description": "django.contrib.auth.models",
+        "label": "assign_role",
+        "importPath": "users.views",
+        "description": "users.views",
         "isExtraImport": true,
-        "detail": "django.contrib.auth.models",
+        "detail": "users.views",
         "documentation": {}
     },
     {
-        "label": "User",
-        "importPath": "django.contrib.auth.models",
-        "description": "django.contrib.auth.models",
+        "label": "create_group",
+        "importPath": "users.views",
+        "description": "users.views",
         "isExtraImport": true,
-        "detail": "django.contrib.auth.models",
+        "detail": "users.views",
         "documentation": {}
     },
     {
-        "label": "User",
-        "importPath": "django.contrib.auth.models",
-        "description": "django.contrib.auth.models",
+        "label": "group_list",
+        "importPath": "users.views",
+        "description": "users.views",
         "isExtraImport": true,
-        "detail": "django.contrib.auth.models",
-        "documentation": {}
-    },
-    {
-        "label": "Group",
-        "importPath": "django.contrib.auth.models",
-        "description": "django.contrib.auth.models",
-        "isExtraImport": true,
-        "detail": "django.contrib.auth.models",
-        "documentation": {}
-    },
-    {
-        "label": "Profile",
-        "importPath": "users.models",
-        "description": "users.models",
-        "isExtraImport": true,
-        "detail": "users.models",
-        "documentation": {}
-    },
-    {
-        "label": "Profile",
-        "importPath": "users.models",
-        "description": "users.models",
-        "isExtraImport": true,
-        "detail": "users.models",
-        "documentation": {}
-    },
-    {
-        "label": "login",
-        "importPath": "django.contrib.auth",
-        "description": "django.contrib.auth",
-        "isExtraImport": true,
-        "detail": "django.contrib.auth",
-        "documentation": {}
-    },
-    {
-        "label": "logout",
-        "importPath": "django.contrib.auth",
-        "description": "django.contrib.auth",
-        "isExtraImport": true,
-        "detail": "django.contrib.auth",
-        "documentation": {}
-    },
-    {
-        "label": "login",
-        "importPath": "django.contrib.auth",
-        "description": "django.contrib.auth",
-        "isExtraImport": true,
-        "detail": "django.contrib.auth",
-        "documentation": {}
-    },
-    {
-        "label": "logout",
-        "importPath": "django.contrib.auth",
-        "description": "django.contrib.auth",
-        "isExtraImport": true,
-        "detail": "django.contrib.auth",
-        "documentation": {}
-    },
-    {
-        "label": "authenticate",
-        "importPath": "django.contrib.auth",
-        "description": "django.contrib.auth",
-        "isExtraImport": true,
-        "detail": "django.contrib.auth",
-        "documentation": {}
-    },
-    {
-        "label": "UserCreationForm",
-        "importPath": "django.contrib.auth.forms",
-        "description": "django.contrib.auth.forms",
-        "isExtraImport": true,
-        "detail": "django.contrib.auth.forms",
-        "documentation": {}
-    },
-    {
-        "label": "AuthenticationForm",
-        "importPath": "django.contrib.auth.forms",
-        "description": "django.contrib.auth.forms",
-        "isExtraImport": true,
-        "detail": "django.contrib.auth.forms",
-        "documentation": {}
-    },
-    {
-        "label": "UserCreationForm",
-        "importPath": "django.contrib.auth.forms",
-        "description": "django.contrib.auth.forms",
-        "isExtraImport": true,
-        "detail": "django.contrib.auth.forms",
-        "documentation": {}
-    },
-    {
-        "label": "AuthenticationForm",
-        "importPath": "django.contrib.auth.forms",
-        "description": "django.contrib.auth.forms",
-        "isExtraImport": true,
-        "detail": "django.contrib.auth.forms",
-        "documentation": {}
-    },
-    {
-        "label": "UserCreationForm",
-        "importPath": "django.contrib.auth.forms",
-        "description": "django.contrib.auth.forms",
-        "isExtraImport": true,
-        "detail": "django.contrib.auth.forms",
-        "documentation": {}
-    },
-    {
-        "label": "get_current_site",
-        "importPath": "django.contrib.sites.shortcuts",
-        "description": "django.contrib.sites.shortcuts",
-        "isExtraImport": true,
-        "detail": "django.contrib.sites.shortcuts",
-        "documentation": {}
-    },
-    {
-        "label": "get_current_site",
-        "importPath": "django.contrib.sites.shortcuts",
-        "description": "django.contrib.sites.shortcuts",
-        "isExtraImport": true,
-        "detail": "django.contrib.sites.shortcuts",
-        "documentation": {}
-    },
-    {
-        "label": "urlsafe_base64_encode",
-        "importPath": "django.utils.http",
-        "description": "django.utils.http",
-        "isExtraImport": true,
-        "detail": "django.utils.http",
-        "documentation": {}
-    },
-    {
-        "label": "urlsafe_base64_encode",
-        "importPath": "django.utils.http",
-        "description": "django.utils.http",
-        "isExtraImport": true,
-        "detail": "django.utils.http",
-        "documentation": {}
-    },
-    {
-        "label": "urlsafe_base64_decode",
-        "importPath": "django.utils.http",
-        "description": "django.utils.http",
-        "isExtraImport": true,
-        "detail": "django.utils.http",
-        "documentation": {}
-    },
-    {
-        "label": "force_bytes",
-        "importPath": "django.utils.encoding",
-        "description": "django.utils.encoding",
-        "isExtraImport": true,
-        "detail": "django.utils.encoding",
-        "documentation": {}
-    },
-    {
-        "label": "force_bytes",
-        "importPath": "django.utils.encoding",
-        "description": "django.utils.encoding",
-        "isExtraImport": true,
-        "detail": "django.utils.encoding",
-        "documentation": {}
-    },
-    {
-        "label": "force_str",
-        "importPath": "django.utils.encoding",
-        "description": "django.utils.encoding",
-        "isExtraImport": true,
-        "detail": "django.utils.encoding",
-        "documentation": {}
-    },
-    {
-        "label": "render_to_string",
-        "importPath": "django.template.loader",
-        "description": "django.template.loader",
-        "isExtraImport": true,
-        "detail": "django.template.loader",
-        "documentation": {}
-    },
-    {
-        "label": "render_to_string",
-        "importPath": "django.template.loader",
-        "description": "django.template.loader",
-        "isExtraImport": true,
-        "detail": "django.template.loader",
-        "documentation": {}
-    },
-    {
-        "label": "default_token_generator",
-        "importPath": "django.contrib.auth.tokens",
-        "description": "django.contrib.auth.tokens",
-        "isExtraImport": true,
-        "detail": "django.contrib.auth.tokens",
-        "documentation": {}
-    },
-    {
-        "label": "default_token_generator",
-        "importPath": "django.contrib.auth.tokens",
-        "description": "django.contrib.auth.tokens",
-        "isExtraImport": true,
-        "detail": "django.contrib.auth.tokens",
-        "documentation": {}
-    },
-    {
-        "label": "send_mail",
-        "importPath": "django.core.mail",
-        "description": "django.core.mail",
-        "isExtraImport": true,
-        "detail": "django.core.mail",
-        "documentation": {}
-    },
-    {
-        "label": "send_mail",
-        "importPath": "django.core.mail",
-        "description": "django.core.mail",
-        "isExtraImport": true,
-        "detail": "django.core.mail",
+        "detail": "users.views",
         "documentation": {}
     },
     {
@@ -772,27 +900,35 @@
         "documentation": {}
     },
     {
+        "label": "debug_toolbar_urls",
+        "importPath": "debug_toolbar.toolbar",
+        "description": "debug_toolbar.toolbar",
+        "isExtraImport": true,
+        "detail": "debug_toolbar.toolbar",
+        "documentation": {}
+    },
+    {
+        "label": "home",
+        "importPath": "core.views",
+        "description": "core.views",
+        "isExtraImport": true,
+        "detail": "core.views",
+        "documentation": {}
+    },
+    {
+        "label": "no_permission",
+        "importPath": "core.views",
+        "description": "core.views",
+        "isExtraImport": true,
+        "detail": "core.views",
+        "documentation": {}
+    },
+    {
         "label": "static",
         "importPath": "django.conf.urls.static",
         "description": "django.conf.urls.static",
         "isExtraImport": true,
         "detail": "django.conf.urls.static",
-        "documentation": {}
-    },
-    {
-        "label": "home_view",
-        "importPath": "events.views",
-        "description": "events.views",
-        "isExtraImport": true,
-        "detail": "events.views",
-        "documentation": {}
-    },
-    {
-        "label": "home_view",
-        "importPath": "events.views",
-        "description": "events.views",
-        "isExtraImport": true,
-        "detail": "events.views",
         "documentation": {}
     },
     {
@@ -804,83 +940,101 @@
         "documentation": {}
     },
     {
-        "label": "post_save",
-        "importPath": "django.db.models.signals",
-        "description": "django.db.models.signals",
+        "label": "re",
+        "kind": 6,
         "isExtraImport": true,
-        "detail": "django.db.models.signals",
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
         "documentation": {}
     },
     {
-        "label": "receiver",
-        "importPath": "django.dispatch",
-        "description": "django.dispatch",
+        "label": "UserCreationForm",
+        "importPath": "django.contrib.auth.forms",
+        "description": "django.contrib.auth.forms",
         "isExtraImport": true,
-        "detail": "django.dispatch",
+        "detail": "django.contrib.auth.forms",
         "documentation": {}
     },
     {
-        "label": "Event",
-        "importPath": "events.models",
-        "description": "events.models",
+        "label": "AuthenticationForm",
+        "importPath": "django.contrib.auth.forms",
+        "description": "django.contrib.auth.forms",
         "isExtraImport": true,
-        "detail": "events.models",
+        "detail": "django.contrib.auth.forms",
         "documentation": {}
     },
     {
-        "label": "Participant",
-        "importPath": "events.models",
-        "description": "events.models",
+        "label": "default_token_generator",
+        "importPath": "django.contrib.auth.tokens",
+        "description": "django.contrib.auth.tokens",
         "isExtraImport": true,
-        "detail": "events.models",
+        "detail": "django.contrib.auth.tokens",
         "documentation": {}
     },
     {
-        "label": "Event",
-        "importPath": "events.models",
-        "description": "events.models",
+        "label": "default_token_generator",
+        "importPath": "django.contrib.auth.tokens",
+        "description": "django.contrib.auth.tokens",
         "isExtraImport": true,
-        "detail": "events.models",
+        "detail": "django.contrib.auth.tokens",
         "documentation": {}
     },
     {
-        "label": "Category",
-        "importPath": "events.models",
-        "description": "events.models",
+        "label": "login",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
         "isExtraImport": true,
-        "detail": "events.models",
+        "detail": "django.contrib.auth",
         "documentation": {}
     },
     {
-        "label": "Participant",
-        "importPath": "events.models",
-        "description": "events.models",
+        "label": "logout",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
         "isExtraImport": true,
-        "detail": "events.models",
+        "detail": "django.contrib.auth",
         "documentation": {}
     },
     {
-        "label": "Category",
-        "importPath": "events.models",
-        "description": "events.models",
+        "label": "CustomRegistrationForm",
+        "importPath": "users.forms",
+        "description": "users.forms",
         "isExtraImport": true,
-        "detail": "events.models",
+        "detail": "users.forms",
         "documentation": {}
     },
     {
-        "label": "Event",
-        "importPath": "events.models",
-        "description": "events.models",
+        "label": "AssignRoleForm",
+        "importPath": "users.forms",
+        "description": "users.forms",
         "isExtraImport": true,
-        "detail": "events.models",
+        "detail": "users.forms",
         "documentation": {}
     },
     {
-        "label": "Participant",
-        "importPath": "events.models",
-        "description": "events.models",
+        "label": "CreateGroupForm",
+        "importPath": "users.forms",
+        "description": "users.forms",
         "isExtraImport": true,
-        "detail": "events.models",
+        "detail": "users.forms",
+        "documentation": {}
+    },
+    {
+        "label": "LoginForm",
+        "importPath": "users.forms",
+        "description": "users.forms",
+        "isExtraImport": true,
+        "detail": "users.forms",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
         "documentation": {}
     },
     {
@@ -901,12 +1055,30 @@
         "documentation": {}
     },
     {
-        "label": "sys",
+        "label": "CoreConfig",
         "kind": 6,
-        "isExtraImport": true,
-        "importPath": "sys",
-        "description": "sys",
-        "detail": "sys",
+        "importPath": "core.apps",
+        "description": "core.apps",
+        "peekOfCode": "class CoreConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'core'",
+        "detail": "core.apps",
+        "documentation": {}
+    },
+    {
+        "label": "home",
+        "kind": 2,
+        "importPath": "core.views",
+        "description": "core.views",
+        "peekOfCode": "def home(request):\n    return render(request, 'home.html')\ndef no_permission(request):\n    return render(request, 'no_permission.html')",
+        "detail": "core.views",
+        "documentation": {}
+    },
+    {
+        "label": "no_permission",
+        "kind": 2,
+        "importPath": "core.views",
+        "description": "core.views",
+        "peekOfCode": "def no_permission(request):\n    return render(request, 'no_permission.html')",
+        "detail": "core.views",
         "documentation": {}
     },
     {
@@ -914,71 +1086,8 @@
         "kind": 6,
         "importPath": "events.migrations.0001_initial",
         "description": "events.migrations.0001_initial",
-        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Category',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('name', models.CharField(max_length=100)),",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Project',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),",
         "detail": "events.migrations.0001_initial",
-        "documentation": {}
-    },
-    {
-        "label": "Migration",
-        "kind": 6,
-        "importPath": "events.migrations.0002_event_image",
-        "description": "events.migrations.0002_event_image",
-        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('events', '0001_initial'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='event',\n            name='image',\n            field=models.ImageField(blank=True, null=True, upload_to='events_images/'),\n        ),",
-        "detail": "events.migrations.0002_event_image",
-        "documentation": {}
-    },
-    {
-        "label": "Migration",
-        "kind": 6,
-        "importPath": "events.migrations.0003_remove_event_description_remove_event_image_and_more",
-        "description": "events.migrations.0003_remove_event_description_remove_event_image_and_more",
-        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('events', '0002_event_image'),\n    ]\n    operations = [\n        migrations.RemoveField(\n            model_name='event',\n            name='description',\n        ),\n        migrations.RemoveField(",
-        "detail": "events.migrations.0003_remove_event_description_remove_event_image_and_more",
-        "documentation": {}
-    },
-    {
-        "label": "Migration",
-        "kind": 6,
-        "importPath": "events.migrations.0004_event_image",
-        "description": "events.migrations.0004_event_image",
-        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('events', '0003_remove_event_description_remove_event_image_and_more'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='event',\n            name='image',\n            field=models.ImageField(blank=True, null=True, upload_to='events/'),\n        ),",
-        "detail": "events.migrations.0004_event_image",
-        "documentation": {}
-    },
-    {
-        "label": "Migration",
-        "kind": 6,
-        "importPath": "events.migrations.0005_remove_event_time",
-        "description": "events.migrations.0005_remove_event_time",
-        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('events', '0004_event_image'),\n    ]\n    operations = [\n        migrations.RemoveField(\n            model_name='event',\n            name='time',\n        ),\n    ]",
-        "detail": "events.migrations.0005_remove_event_time",
-        "documentation": {}
-    },
-    {
-        "label": "Migration",
-        "kind": 6,
-        "importPath": "events.migrations.0006_event_time",
-        "description": "events.migrations.0006_event_time",
-        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('events', '0005_remove_event_time'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='event',\n            name='time',\n            field=models.TimeField(default='00:00'),\n            preserve_default=False,",
-        "detail": "events.migrations.0006_event_time",
-        "documentation": {}
-    },
-    {
-        "label": "Migration",
-        "kind": 6,
-        "importPath": "events.migrations.0007_alter_category_options_remove_category_description_and_more",
-        "description": "events.migrations.0007_alter_category_options_remove_category_description_and_more",
-        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('events', '0006_event_time'),\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n    ]\n    operations = [\n        migrations.AlterModelOptions(\n            name='category',\n            options={'ordering': ['name'], 'verbose_name_plural': 'Categories'},\n        ),",
-        "detail": "events.migrations.0007_alter_category_options_remove_category_description_and_more",
-        "documentation": {}
-    },
-    {
-        "label": "EventAdmin",
-        "kind": 6,
-        "importPath": "events.admin",
-        "description": "events.admin",
-        "peekOfCode": "class EventAdmin(admin.ModelAdmin):\n    list_display = ('name', 'date', 'location')",
-        "detail": "events.admin",
         "documentation": {}
     },
     {
@@ -986,7 +1095,7 @@
         "kind": 6,
         "importPath": "events.apps",
         "description": "events.apps",
-        "peekOfCode": "class EventsConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'events'",
+        "peekOfCode": "class EventsConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'events'\n    def ready(self):\n        import events.signals",
         "detail": "events.apps",
         "documentation": {}
     },
@@ -995,53 +1104,35 @@
         "kind": 6,
         "importPath": "events.forms",
         "description": "events.forms",
-        "peekOfCode": "class EventForm(forms.ModelForm):\n    class Meta:\n        model = Event\n        fields = '__all__'\n    def clean_date(self):\n        event_date = self.cleaned_data.get('date')\n        if event_date and event_date < date.today():\n            raise forms.ValidationError(\"Event date can't be in the past.\")\n        return event_date\nclass ParticipantForm(forms.ModelForm):",
+        "peekOfCode": "class EventForm(forms.Form):\n    title = forms.CharField(max_length=250, label=\"Event Title\")\n    description = forms.CharField(\n        widget=forms.Textarea, label='Event Description')\n    due_date = forms.DateField(widget=forms.SelectDateWidget, label=\"Due Date\")\n    assigned_to = forms.MultipleChoiceField(\n        widget=forms.CheckboxSelectMultiple, choices=[], label='Assigned To')\n    def __init__(self, *args, **kwargs):\n        # print(args, kwargs)\n        employees = kwargs.pop(\"employees\", [])",
         "detail": "events.forms",
         "documentation": {}
     },
     {
-        "label": "ParticipantForm",
+        "label": "StyledFormMixin",
         "kind": 6,
         "importPath": "events.forms",
         "description": "events.forms",
-        "peekOfCode": "class ParticipantForm(forms.ModelForm):\n    class Meta:\n        model = Participant\n        fields = '__all__'\nclass CategoryForm(forms.ModelForm):\n    class Meta:\n        model = Category\n        fields = '__all__'",
+        "peekOfCode": "class StyledFormMixin:\n    \"\"\" Mixing to apply style to form field\"\"\"\n    def __init__(self, *arg, **kwarg):\n        super().__init__(*arg, **kwarg)\n        self.apply_styled_widgets()\n    default_classes = \"border-2 border-gray-300 w-full p-3 rounded-lg shadow-sm focus:outline-none focus:border-rose-500 focus:ring-rose-500\"\n    def apply_styled_widgets(self):\n        for field_name, field in self.fields.items():\n            if isinstance(field.widget, forms.TextInput):\n                field.widget.attrs.update({",
         "detail": "events.forms",
         "documentation": {}
     },
     {
-        "label": "CategoryForm",
+        "label": "EventModelForm",
         "kind": 6,
         "importPath": "events.forms",
         "description": "events.forms",
-        "peekOfCode": "class CategoryForm(forms.ModelForm):\n    class Meta:\n        model = Category\n        fields = '__all__'",
+        "peekOfCode": "class EventModelForm(StyledFormMixin, forms.ModelForm):\n    class Meta:\n        model = Event\n        fields = ['title', 'description', 'due_date', 'assigned_to']\n        widgets = {\n            'due_date': forms.SelectDateWidget,\n            'assigned_to': forms.CheckboxSelectMultiple\n        }\nclass EventDetailModelForm(StyledFormMixin, forms.ModelForm):\n    class Meta:",
         "detail": "events.forms",
         "documentation": {}
     },
     {
-        "label": "RSVP",
+        "label": "EventDetailModelForm",
         "kind": 6,
-        "importPath": "events.models",
-        "description": "events.models",
-        "peekOfCode": "class RSVP(models.Model):\n    user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)\n    event = models.ForeignKey('Event', on_delete=models.CASCADE)  \n    status = models.CharField(max_length=10, choices=(('yes', 'Yes'), ('no', 'No')), default='yes')\n    created_at = models.DateTimeField(auto_now_add=True)\n    def __str__(self):\n        return f\"{self.user.username} RSVP'd {self.status} for {self.event.title}\"\nclass Category(models.Model):\n    name = models.CharField(max_length=100, unique=True)\n    slug = models.SlugField(max_length=120, unique=True, blank=True)",
-        "detail": "events.models",
-        "documentation": {}
-    },
-    {
-        "label": "Category",
-        "kind": 6,
-        "importPath": "events.models",
-        "description": "events.models",
-        "peekOfCode": "class Category(models.Model):\n    name = models.CharField(max_length=100, unique=True)\n    slug = models.SlugField(max_length=120, unique=True, blank=True)\n    class Meta:\n        verbose_name_plural = \"Categories\"\n        ordering = [\"name\"]\n    def save(self, *args, **kwargs):\n        if not self.slug:\n            self.slug = slugify(self.name)\n        super().save(*args, **kwargs)",
-        "detail": "events.models",
-        "documentation": {}
-    },
-    {
-        "label": "Participant",
-        "kind": 6,
-        "importPath": "events.models",
-        "description": "events.models",
-        "peekOfCode": "class Participant(models.Model):\n    full_name = models.CharField(max_length=150)\n    email = models.EmailField(unique=True)\n    def __str__(self):\n        return f\"{self.full_name} <{self.email}>\"\nclass Event(models.Model):\n    name = models.CharField(max_length=200)\n    description = models.TextField\n    date = models.DateField()\n    time = models.TimeField()",
-        "detail": "events.models",
+        "importPath": "events.forms",
+        "description": "events.forms",
+        "peekOfCode": "class EventDetailModelForm(StyledFormMixin, forms.ModelForm):\n    class Meta:\n        model = EventDetail\n        fields = ['priority', 'notes', 'asset']",
+        "detail": "events.forms",
         "documentation": {}
     },
     {
@@ -1049,8 +1140,44 @@
         "kind": 6,
         "importPath": "events.models",
         "description": "events.models",
-        "peekOfCode": "class Event(models.Model):\n    name = models.CharField(max_length=200)\n    description = models.TextField\n    date = models.DateField()\n    time = models.TimeField()\n    location = models.CharField(max_length=255)\n    category = models.ForeignKey(Category, on_delete=models.CASCADE)\n    image = models.ImageField(upload_to='events/', blank=True, null=True)\n    def __str__(self):\n        return self.name",
+        "peekOfCode": "class Event(models.Model):\n    STATUS_CHOICES = [\n        ('PENDING', 'Pending'),\n        ('IN_PROGRESS', 'In Progress'),\n        ('COMPLETED', 'Completed')\n    ]\n    project = models.ForeignKey(\n        \"Project\",\n        on_delete=models.CASCADE,\n        default=1",
         "detail": "events.models",
+        "documentation": {}
+    },
+    {
+        "label": "EventDetail",
+        "kind": 6,
+        "importPath": "events.models",
+        "description": "events.models",
+        "peekOfCode": "class EventDetail(models.Model):\n    HIGH = 'H'\n    MEDIUM = 'M'\n    LOW = 'L'\n    PRIORITY_OPTIONS = (\n        (HIGH, 'High'),\n        (MEDIUM, 'Medium'),\n        (LOW, 'Low')\n    )\n    Event = models.OneToOneField(",
+        "detail": "events.models",
+        "documentation": {}
+    },
+    {
+        "label": "Project",
+        "kind": 6,
+        "importPath": "events.models",
+        "description": "events.models",
+        "peekOfCode": "class Project(models.Model):\n    name = models.CharField(max_length=100)\n    description = models.TextField(blank=True, null=True)\n    start_date = models.DateField()\n    def __str__(self):\n        return self.name",
+        "detail": "events.models",
+        "documentation": {}
+    },
+    {
+        "label": "notify_employees_on_event_creation",
+        "kind": 2,
+        "importPath": "events.signals",
+        "description": "events.signals",
+        "peekOfCode": "def notify_employees_on_event_creation(sender, instance, action, **kwargs):\n    if action == \"post_add\":\n        print(instance, instance.assigned_to.all())\n        assigned_emails = [emp.email for emp in instance.assigned_to.all()]\n        print(\"Checking....\", assigned_emails)\n    send_mail(\n        \"New Event Assigned\",\n        f\"You have been assigned to the event: {instance.title}\",\n        \"slashupdates@gmail.com\",\n        assigned_emails,",
+        "detail": "events.signals",
+        "documentation": {}
+    },
+    {
+        "label": "delete_associate_event_details",
+        "kind": 2,
+        "importPath": "events.signals",
+        "description": "events.signals",
+        "peekOfCode": "def delete_associate_event_details(sender, instance, **kwargs):\n    if instance.details:\n       instance.details.delete()\nprint(\"Event details deleted successfully\")",
+        "detail": "events.signals",
         "documentation": {}
     },
     {
@@ -1058,124 +1185,106 @@
         "kind": 5,
         "importPath": "events.urls",
         "description": "events.urls",
-        "peekOfCode": "urlpatterns = [\n    path('events/', views.event_list, name='event_list'),\n    path('events/create/', views.event_create, name='event_create'),\n    path('events/<int:pk>/edit/', views.event_update, name='event_update'),\n    path('events/<int:pk>/delete/', views.event_delete, name='event_delete'),\n    path('events/<int:pk>/', views.event_detail, name='event_detail'), \n    path(\"accounts/dashboard/view/\", dashboard_view, name=\"dashboard_view\"),  # ✅ comma added\n    path('dashboard/', dashboard_view, name='dashboard'),  # ✅\n    path('signup/', signup_view, name='signup'),\n    path('login/', login_view, name='login'),",
+        "peekOfCode": "urlpatterns = [\n   path('manager-dashboard/', manager_dashboard, name=\"manager-dashboard\"),\n   path('user-dashboard/', employee_dashboard, name='user-dashboard'),\n   path('create-event/', create_event, name='create-event'),\n   path('view_event/', view_event),\n   path('event/<int:event_id>/details/', event_details, name='event-details'),\n   path('update-event/<int:id>/', update_event, name='update-event'),\n   path('delete-event/<int:id>/', delete_event, name='delete-event'),\n   path('dashboard/', dashboard, name='dashboard')\n]",
         "detail": "events.urls",
         "documentation": {}
     },
     {
-        "label": "signup_view",
+        "label": "home",
         "kind": 2,
         "importPath": "events.views",
         "description": "events.views",
-        "peekOfCode": "def signup_view(request):\n    if request.method == \"POST\":\n        form = UserCreationForm(request.POST)\n        if form.is_valid():\n            user = form.save(commit=False)\n            user.is_active = False\n            user.save()\n            token = default_token_generator.make_token(user)\n            uid = urlsafe_base64_encode(force_bytes(user.pk))\n            domain = get_current_site(request).domain",
+        "peekOfCode": "def home(request):\n    return render(request, 'home.html')\n# Create your views here.\ndef is_manager(user):\n    return user.groups.filter(name='Manager').exists()\ndef is_employee(user):\n    return user.groups.filter(name='Manager').exists()\n@user_passes_test(is_manager, login_url='no-permission')\ndef manager_dashboard(request):\n    type = request.GET.get('type', 'all')",
         "detail": "events.views",
         "documentation": {}
     },
     {
-        "label": "login_view",
+        "label": "is_manager",
         "kind": 2,
         "importPath": "events.views",
         "description": "events.views",
-        "peekOfCode": "def login_view(request):\n    if request.method == \"POST\":\n        form = AuthenticationForm(data=request.POST)\n        if form.is_valid():\n            user = form.get_user()\n            login(request, user)\n            return redirect(\"dashboard\")\n    else:\n        form = AuthenticationForm()\n    return render(request, \"users/login.html\", {\"form\": form})",
+        "peekOfCode": "def is_manager(user):\n    return user.groups.filter(name='Manager').exists()\ndef is_employee(user):\n    return user.groups.filter(name='Manager').exists()\n@user_passes_test(is_manager, login_url='no-permission')\ndef manager_dashboard(request):\n    type = request.GET.get('type', 'all')\n    # print(type)\n    counts = Event.objects.aggregate(\n        total=Count('id'),",
         "detail": "events.views",
         "documentation": {}
     },
     {
-        "label": "logout_view",
+        "label": "is_employee",
         "kind": 2,
         "importPath": "events.views",
         "description": "events.views",
-        "peekOfCode": "def logout_view(request):\n    if request.method == \"POST\":\n        logout(request)\n        return redirect(\"login\")\n# -------------------------------\n# ROLE CHECK FUNCTIONS\n# -------------------------------\ndef is_admin(user):\n    return user.groups.filter(name=\"Admin\").exists()\ndef is_organizer(user):",
+        "peekOfCode": "def is_employee(user):\n    return user.groups.filter(name='Manager').exists()\n@user_passes_test(is_manager, login_url='no-permission')\ndef manager_dashboard(request):\n    type = request.GET.get('type', 'all')\n    # print(type)\n    counts = Event.objects.aggregate(\n        total=Count('id'),\n        completed=Count('id', filter=Q(status='COMPLETED')),\n        in_progress=Count('id', filter=Q(status='IN_PROGRESS')),",
         "detail": "events.views",
         "documentation": {}
     },
     {
-        "label": "is_admin",
+        "label": "manager_dashboard",
         "kind": 2,
         "importPath": "events.views",
         "description": "events.views",
-        "peekOfCode": "def is_admin(user):\n    return user.groups.filter(name=\"Admin\").exists()\ndef is_organizer(user):\n    return user.groups.filter(name=\"Organizer\").exists()\n# -------------------------------\n# HOME PAGE\n# -------------------------------\ndef home_view(request):\n    today = timezone.now().date()\n    upcoming_events = Event.objects.select_related(",
+        "peekOfCode": "def manager_dashboard(request):\n    type = request.GET.get('type', 'all')\n    # print(type)\n    counts = Event.objects.aggregate(\n        total=Count('id'),\n        completed=Count('id', filter=Q(status='COMPLETED')),\n        in_progress=Count('id', filter=Q(status='IN_PROGRESS')),\n        pending=Count('id', filter=Q(status='PENDING')),\n    )\n    base_query = Event.objects.select_related(",
         "detail": "events.views",
         "documentation": {}
     },
     {
-        "label": "is_organizer",
+        "label": "employee_dashboard",
         "kind": 2,
         "importPath": "events.views",
         "description": "events.views",
-        "peekOfCode": "def is_organizer(user):\n    return user.groups.filter(name=\"Organizer\").exists()\n# -------------------------------\n# HOME PAGE\n# -------------------------------\ndef home_view(request):\n    today = timezone.now().date()\n    upcoming_events = Event.objects.select_related(\n        \"category\"\n    ).prefetch_related(",
+        "peekOfCode": "def employee_dashboard(request):\n    return render(request, \"dashboard/user-dashboard.html\")\n@login_required\n@permission_required(\"events.add_event\", login_url='no-permission')\ndef create_event(request):\n    # employees = Employee.objects.all()\n    event_form = EventModelForm()  # For GET\n    event_detail_form = EventDetailModelForm()\n    if request.method == \"POST\":\n        event_form = EventModelForm(request.POST)",
         "detail": "events.views",
         "documentation": {}
     },
     {
-        "label": "home_view",
+        "label": "create_event",
         "kind": 2,
         "importPath": "events.views",
         "description": "events.views",
-        "peekOfCode": "def home_view(request):\n    today = timezone.now().date()\n    upcoming_events = Event.objects.select_related(\n        \"category\"\n    ).prefetch_related(\n        \"participants\"\n    ).filter(\n        date__gte=today\n    ).order_by(\"date\", \"time\")\n    return render(",
+        "peekOfCode": "def create_event(request):\n    # employees = Employee.objects.all()\n    event_form = EventModelForm()  # For GET\n    event_detail_form = EventDetailModelForm()\n    if request.method == \"POST\":\n        event_form = EventModelForm(request.POST)\n        event_detail_form = EventDetailModelForm(request.POST, request.FILES)\n        if event_form.is_valid() and event_detail_form.is_valid():\n            \"\"\" For Model Form Data \"\"\"\n            event = event_form.save()",
         "detail": "events.views",
         "documentation": {}
     },
     {
-        "label": "event_list",
+        "label": "update_event",
         "kind": 2,
         "importPath": "events.views",
         "description": "events.views",
-        "peekOfCode": "def event_list(request):\n    search = request.GET.get(\"q\", \"\")\n    events = Event.objects.select_related(\"category\")\n    if search:\n        events = events.filter(\n            Q(name__icontains=search) |\n            Q(location__icontains=search)\n        )\n    return render(\n        request,",
+        "peekOfCode": "def update_event(request, id):\n    event = Event.objects.get(id=id)\n    event_form = EventModelForm(instance=event)  # For GET\n    if event.details:\n        event_detail_form = EventDetailModelForm(instance=event.details)\n    if request.method == \"POST\":\n        event_form = EventModelForm(request.POST, instance=event)\n        event_detail_form = EventDetailModelForm(\n            request.POST, instance=event.details)\n        if event_form.is_valid() and event_detail_form.is_valid():",
         "detail": "events.views",
         "documentation": {}
     },
     {
-        "label": "event_detail",
+        "label": "delete_event",
         "kind": 2,
         "importPath": "events.views",
         "description": "events.views",
-        "peekOfCode": "def event_detail(request, event_id):\n    event = get_object_or_404(Event, id=event_id)\n    return render(\n        request,\n        \"events/event_detail.html\",\n        {\"event\": event},\n    )\n# -------------------------------\n# CREATE EVENT\n# -------------------------------",
+        "peekOfCode": "def delete_event(request, id):\n    if request.method == 'POST':\n        event = Event.objects.get(id=id)\n        event.delete()\n        messages.success(request, 'Event Deleted Successfully')\n        return redirect('manager-dashboard')\n    else:\n        messages.error(request, 'Something went wrong')\n        return redirect('manager-dashboard')\n@login_required",
         "detail": "events.views",
         "documentation": {}
     },
     {
-        "label": "event_create",
+        "label": "view_event",
         "kind": 2,
         "importPath": "events.views",
         "description": "events.views",
-        "peekOfCode": "def event_create(request):\n    form = EventForm(request.POST or None, request.FILES or None)\n    if request.method == \"POST\":\n        if form.is_valid():\n            event = form.save(commit=False)\n            event.organizer = request.user\n            event.save()\n            return redirect(\"event_list\")\n    return render(\n        request,",
+        "peekOfCode": "def view_event(request):\n    projects = Project.objects.annotate(\n        num_event=Count('event')).order_by('num_event')\n    return render(request, \"show_event.html\", {\"projects\": projects})\n@login_required\n@permission_required(\"events.view_event\", login_url='no-permission')\ndef event_details(request, event_id):\n    event = Event.objects.get(id=event_id)\n    status_choices = Event.STATUS_CHOICES\n    if request.method == 'POST':",
         "detail": "events.views",
         "documentation": {}
     },
     {
-        "label": "event_update",
+        "label": "event_details",
         "kind": 2,
         "importPath": "events.views",
         "description": "events.views",
-        "peekOfCode": "def event_update(request, event_id):\n    event = get_object_or_404(Event, id=event_id)\n    form = EventForm(request.POST or None, instance=event)\n    if form.is_valid():\n        form.save()\n        return redirect(\"event_list\")\n    return render(\n        request,\n        \"events/event_form.html\",\n        {",
+        "peekOfCode": "def event_details(request, event_id):\n    event = Event.objects.get(id=event_id)\n    status_choices = Event.STATUS_CHOICES\n    if request.method == 'POST':\n        selected_status = request.POST.get('event_status')\n        print(selected_status)\n        event.status = selected_status\n        event.save()\n        return redirect('event-details', event.id)\n    return render(request, 'event_details.html', {\"event\":event, 'status_choices': status_choices})",
         "detail": "events.views",
         "documentation": {}
     },
     {
-        "label": "event_delete",
+        "label": "dashboard",
         "kind": 2,
         "importPath": "events.views",
         "description": "events.views",
-        "peekOfCode": "def event_delete(request, event_id):\n    event = get_object_or_404(Event, id=event_id)\n    if request.method == \"POST\":\n        event.delete()\n        return redirect(\"event_list\")\n    return render(\n        request,\n        \"events/event_confirm_delete.html\",\n        {\"event\": event},\n    )",
-        "detail": "events.views",
-        "documentation": {}
-    },
-    {
-        "label": "rsvp_event",
-        "kind": 2,
-        "importPath": "events.views",
-        "description": "events.views",
-        "peekOfCode": "def rsvp_event(request, pk):\n    event = get_object_or_404(Event, id=pk)\n    if request.user not in event.participants.all():\n        event.participants.add(request.user)\n    return redirect(\"event_detail\", event_id=pk)\n# -------------------------------\n# DASHBOARD\n# -------------------------------\n@login_required\n@login_required",
-        "detail": "events.views",
-        "documentation": {}
-    },
-    {
-        "label": "dashboard_view",
-        "kind": 2,
-        "importPath": "events.views",
-        "description": "events.views",
-        "peekOfCode": "def dashboard_view(request):\n    user = request.user\n    # Get or create profile\n    profile, created = Profile.objects.get_or_create(user=user)\n    # ----------------------\n    # ADMIN DASHBOARD\n    # ----------------------\n    if user.groups.filter(name=\"Admin\").exists():\n        context = {\n            \"profile\": profile,",
+        "peekOfCode": "def dashboard(request):\n    if is_manager(request.user):\n        return redirect('manager-dashboard')\n    elif is_employee(request.user):\n        return redirect('user-dashboard')\n    elif is_admin(request.user):\n        return redirect('admin-dashboard')\n    return redirect('no-permission')",
         "detail": "events.views",
         "documentation": {}
     },
@@ -1252,15 +1361,6 @@
         "documentation": {}
     },
     {
-        "label": "STATICFILES_STORAGE",
-        "kind": 5,
-        "importPath": "event_management.settings",
-        "description": "event_management.settings",
-        "peekOfCode": "STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'\nROOT_URLCONF = 'event_management.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [BASE_DIR / 'templates'],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                 'django.template.context_processors.debug',",
-        "detail": "event_management.settings",
-        "documentation": {}
-    },
-    {
         "label": "ROOT_URLCONF",
         "kind": 5,
         "importPath": "event_management.settings",
@@ -1292,16 +1392,7 @@
         "kind": 5,
         "importPath": "event_management.settings",
         "description": "event_management.settings",
-        "peekOfCode": "DATABASES = {\n    'default': dj_database_url.config(\n        default='postgresql://event_manager_oyli_user:u93a9HDBDOKilc8CpztPk1X7ufMueBez@dpg-d6li26kr85hc738sa30g-a.oregon-postgres.render.com/event_manager_oyli',\n        conn_max_age=600\n    )\n}\n# For Postgres\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.postgresql',",
-        "detail": "event_management.settings",
-        "documentation": {}
-    },
-    {
-        "label": "DATABASES",
-        "kind": 5,
-        "importPath": "event_management.settings",
-        "description": "event_management.settings",
-        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.postgresql',\n        'NAME': 'event_management',\n        'USER': 'postgres',\n        'PASSWORD': '#postgre1234',\n        'HOST': 'localhost',\n        'PORT': '5432'\n    }\n}",
+        "peekOfCode": "DATABASES = {\n    'default': dj_database_url.config(\n        default='postgresql://event_manager_oyli_user:u93a9HDBDOKilc8CpztPk1X7ufMueBez@dpg-d6li26kr85hc738sa30g-a.oregon-postgres.render.com/event_manager_oyli',\n        conn_max_age=600\n    )\n}\n# For Postgres\n# DATABASES = {\n#     'default': {\n#         'ENGINE': 'django.db.backends.postgresql',",
         "detail": "event_management.settings",
         "documentation": {}
     },
@@ -1319,7 +1410,7 @@
         "kind": 5,
         "importPath": "event_management.settings",
         "description": "event_management.settings",
-        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.2/howto/static-files/\nSTATIC_URL = '/static/'\nSTATICFILES_DIRS = [BASE_DIR / \"static\"]\nSTATIC_ROOT = BASE_DIR / 'staticfiles'  \nLOGIN_URL = \"/accounts/login/\"",
+        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.2/howto/static-files/\nSTATIC_URL = 'static/'\nSTATICFILES_DIRS = [BASE_DIR / \"static\"]\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field",
         "detail": "event_management.settings",
         "documentation": {}
     },
@@ -1328,7 +1419,7 @@
         "kind": 5,
         "importPath": "event_management.settings",
         "description": "event_management.settings",
-        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.2/howto/static-files/\nSTATIC_URL = '/static/'\nSTATICFILES_DIRS = [BASE_DIR / \"static\"]\nSTATIC_ROOT = BASE_DIR / 'staticfiles'  \nLOGIN_URL = \"/accounts/login/\"\nLOGIN_REDIRECT_URL = \"/accounts/dashboard/\"",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.2/howto/static-files/\nSTATIC_URL = 'static/'\nSTATICFILES_DIRS = [BASE_DIR / \"static\"]\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
         "detail": "event_management.settings",
         "documentation": {}
     },
@@ -1337,7 +1428,7 @@
         "kind": 5,
         "importPath": "event_management.settings",
         "description": "event_management.settings",
-        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.2/howto/static-files/\nSTATIC_URL = '/static/'\nSTATICFILES_DIRS = [BASE_DIR / \"static\"]\nSTATIC_ROOT = BASE_DIR / 'staticfiles'  \nLOGIN_URL = \"/accounts/login/\"\nLOGIN_REDIRECT_URL = \"/accounts/dashboard/\"\nLOGOUT_REDIRECT_URL = \"/accounts/login/\"",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.2/howto/static-files/\nSTATIC_URL = 'static/'\nSTATICFILES_DIRS = [BASE_DIR / \"static\"]\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nMEDIA_URL = '/media/'",
         "detail": "event_management.settings",
         "documentation": {}
     },
@@ -1346,7 +1437,7 @@
         "kind": 5,
         "importPath": "event_management.settings",
         "description": "event_management.settings",
-        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.2/howto/static-files/\nSTATIC_URL = '/static/'\nSTATICFILES_DIRS = [BASE_DIR / \"static\"]\nSTATIC_ROOT = BASE_DIR / 'staticfiles'  \nLOGIN_URL = \"/accounts/login/\"\nLOGIN_REDIRECT_URL = \"/accounts/dashboard/\"\nLOGOUT_REDIRECT_URL = \"/accounts/login/\"\n# Default primary key field type",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.2/howto/static-files/\nSTATIC_URL = 'static/'\nSTATICFILES_DIRS = [BASE_DIR / \"static\"]\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nMEDIA_URL = '/media/'\nMEDIA_ROOT = BASE_DIR / 'media'",
         "detail": "event_management.settings",
         "documentation": {}
     },
@@ -1355,7 +1446,7 @@
         "kind": 5,
         "importPath": "event_management.settings",
         "description": "event_management.settings",
-        "peekOfCode": "STATIC_URL = '/static/'\nSTATICFILES_DIRS = [BASE_DIR / \"static\"]\nSTATIC_ROOT = BASE_DIR / 'staticfiles'  \nLOGIN_URL = \"/accounts/login/\"\nLOGIN_REDIRECT_URL = \"/accounts/dashboard/\"\nLOGOUT_REDIRECT_URL = \"/accounts/login/\"\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nMEDIA_URL = '/media/'",
+        "peekOfCode": "STATIC_URL = 'static/'\nSTATICFILES_DIRS = [BASE_DIR / \"static\"]\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nMEDIA_URL = '/media/'\nMEDIA_ROOT = BASE_DIR / 'media'\nFRONTEND_URL = 'http://127.0.0.1:8000'\nLOGIN_URL = 'sign-in'",
         "detail": "event_management.settings",
         "documentation": {}
     },
@@ -1364,43 +1455,7 @@
         "kind": 5,
         "importPath": "event_management.settings",
         "description": "event_management.settings",
-        "peekOfCode": "STATICFILES_DIRS = [BASE_DIR / \"static\"]\nSTATIC_ROOT = BASE_DIR / 'staticfiles'  \nLOGIN_URL = \"/accounts/login/\"\nLOGIN_REDIRECT_URL = \"/accounts/dashboard/\"\nLOGOUT_REDIRECT_URL = \"/accounts/login/\"\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nMEDIA_URL = '/media/'\n# MEDIA_ROOT = BASE_DIR / 'media'",
-        "detail": "event_management.settings",
-        "documentation": {}
-    },
-    {
-        "label": "STATIC_ROOT",
-        "kind": 5,
-        "importPath": "event_management.settings",
-        "description": "event_management.settings",
-        "peekOfCode": "STATIC_ROOT = BASE_DIR / 'staticfiles'  \nLOGIN_URL = \"/accounts/login/\"\nLOGIN_REDIRECT_URL = \"/accounts/dashboard/\"\nLOGOUT_REDIRECT_URL = \"/accounts/login/\"\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nMEDIA_URL = '/media/'\n# MEDIA_ROOT = BASE_DIR / 'media'\nMEDIA_ROOT = os.path.join(BASE_DIR, \"media\")",
-        "detail": "event_management.settings",
-        "documentation": {}
-    },
-    {
-        "label": "LOGIN_URL",
-        "kind": 5,
-        "importPath": "event_management.settings",
-        "description": "event_management.settings",
-        "peekOfCode": "LOGIN_URL = \"/accounts/login/\"\nLOGIN_REDIRECT_URL = \"/accounts/dashboard/\"\nLOGOUT_REDIRECT_URL = \"/accounts/login/\"\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nMEDIA_URL = '/media/'\n# MEDIA_ROOT = BASE_DIR / 'media'\nMEDIA_ROOT = os.path.join(BASE_DIR, \"media\")\n# For Development (prints to terminal)",
-        "detail": "event_management.settings",
-        "documentation": {}
-    },
-    {
-        "label": "LOGIN_REDIRECT_URL",
-        "kind": 5,
-        "importPath": "event_management.settings",
-        "description": "event_management.settings",
-        "peekOfCode": "LOGIN_REDIRECT_URL = \"/accounts/dashboard/\"\nLOGOUT_REDIRECT_URL = \"/accounts/login/\"\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nMEDIA_URL = '/media/'\n# MEDIA_ROOT = BASE_DIR / 'media'\nMEDIA_ROOT = os.path.join(BASE_DIR, \"media\")\n# For Development (prints to terminal)\nEMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'",
-        "detail": "event_management.settings",
-        "documentation": {}
-    },
-    {
-        "label": "LOGOUT_REDIRECT_URL",
-        "kind": 5,
-        "importPath": "event_management.settings",
-        "description": "event_management.settings",
-        "peekOfCode": "LOGOUT_REDIRECT_URL = \"/accounts/login/\"\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nMEDIA_URL = '/media/'\n# MEDIA_ROOT = BASE_DIR / 'media'\nMEDIA_ROOT = os.path.join(BASE_DIR, \"media\")\n# For Development (prints to terminal)\nEMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'\n# For Production (Example using Gmail)",
+        "peekOfCode": "STATICFILES_DIRS = [BASE_DIR / \"static\"]\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nMEDIA_URL = '/media/'\nMEDIA_ROOT = BASE_DIR / 'media'\nFRONTEND_URL = 'http://127.0.0.1:8000'\nLOGIN_URL = 'sign-in'",
         "detail": "event_management.settings",
         "documentation": {}
     },
@@ -1409,7 +1464,7 @@
         "kind": 5,
         "importPath": "event_management.settings",
         "description": "event_management.settings",
-        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nMEDIA_URL = '/media/'\n# MEDIA_ROOT = BASE_DIR / 'media'\nMEDIA_ROOT = os.path.join(BASE_DIR, \"media\")\n# For Development (prints to terminal)\nEMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'\n# For Production (Example using Gmail)\n# EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\n# EMAIL_HOST = 'smtp.gmail.com'\n# EMAIL_PORT = 587",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nMEDIA_URL = '/media/'\nMEDIA_ROOT = BASE_DIR / 'media'\nFRONTEND_URL = 'http://127.0.0.1:8000'\nLOGIN_URL = 'sign-in'",
         "detail": "event_management.settings",
         "documentation": {}
     },
@@ -1418,7 +1473,7 @@
         "kind": 5,
         "importPath": "event_management.settings",
         "description": "event_management.settings",
-        "peekOfCode": "MEDIA_URL = '/media/'\n# MEDIA_ROOT = BASE_DIR / 'media'\nMEDIA_ROOT = os.path.join(BASE_DIR, \"media\")\n# For Development (prints to terminal)\nEMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'\n# For Production (Example using Gmail)\n# EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\n# EMAIL_HOST = 'smtp.gmail.com'\n# EMAIL_PORT = 587\n# EMAIL_USE_TLS = True",
+        "peekOfCode": "MEDIA_URL = '/media/'\nMEDIA_ROOT = BASE_DIR / 'media'\nFRONTEND_URL = 'http://127.0.0.1:8000'\nLOGIN_URL = 'sign-in'",
         "detail": "event_management.settings",
         "documentation": {}
     },
@@ -1427,16 +1482,25 @@
         "kind": 5,
         "importPath": "event_management.settings",
         "description": "event_management.settings",
-        "peekOfCode": "MEDIA_ROOT = os.path.join(BASE_DIR, \"media\")\n# For Development (prints to terminal)\nEMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'\n# For Production (Example using Gmail)\n# EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\n# EMAIL_HOST = 'smtp.gmail.com'\n# EMAIL_PORT = 587\n# EMAIL_USE_TLS = True\n# EMAIL_HOST_USER = 'your-email@gmail.com'\n# EMAIL_HOST_PASSWORD = 'your-app-password' # Use a [Google App Password](https://myaccount.google.com)",
+        "peekOfCode": "MEDIA_ROOT = BASE_DIR / 'media'\nFRONTEND_URL = 'http://127.0.0.1:8000'\nLOGIN_URL = 'sign-in'",
         "detail": "event_management.settings",
         "documentation": {}
     },
     {
-        "label": "EMAIL_BACKEND",
+        "label": "FRONTEND_URL",
         "kind": 5,
         "importPath": "event_management.settings",
         "description": "event_management.settings",
-        "peekOfCode": "EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'\n# For Production (Example using Gmail)\n# EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\n# EMAIL_HOST = 'smtp.gmail.com'\n# EMAIL_PORT = 587\n# EMAIL_USE_TLS = True\n# EMAIL_HOST_USER = 'your-email@gmail.com'\n# EMAIL_HOST_PASSWORD = 'your-app-password' # Use a [Google App Password](https://myaccount.google.com)",
+        "peekOfCode": "FRONTEND_URL = 'http://127.0.0.1:8000'\nLOGIN_URL = 'sign-in'",
+        "detail": "event_management.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LOGIN_URL",
+        "kind": 5,
+        "importPath": "event_management.settings",
+        "description": "event_management.settings",
+        "peekOfCode": "LOGIN_URL = 'sign-in'",
         "detail": "event_management.settings",
         "documentation": {}
     },
@@ -1445,7 +1509,7 @@
         "kind": 5,
         "importPath": "event_management.urls",
         "description": "event_management.urls",
-        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('', include('events.urls')),\n    path('', home_view, name='home'),  \n    path('', include('events.urls')), \n    path('accounts/', include(\"users.urls\")),\n]\nif settings.DEBUG:\n    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)",
+        "peekOfCode": "urlpatterns = [\n   path('admin/', admin.site.urls),\n    path(\"events/\", include(\"events.urls\")),\n    path(\"users/\", include('users.urls')),\n    path('', home, name=\"home\"),\n    path('no-permission/', no_permission, name='no-permission')\n]+debug_toolbar_urls()\nurlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)",
         "detail": "event_management.urls",
         "documentation": {}
     },
@@ -1477,24 +1541,6 @@
         "documentation": {}
     },
     {
-        "label": "Migration",
-        "kind": 6,
-        "importPath": "users.migrations.0002_profile_role_alter_profile_avatar",
-        "description": "users.migrations.0002_profile_role_alter_profile_avatar",
-        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('users', '0001_initial'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='profile',\n            name='role',\n            field=models.CharField(choices=[('Admin', 'Admin'), ('Organizer', 'Organizer'), ('Participant', 'Participant')], default='Participant', max_length=20),\n        ),",
-        "detail": "users.migrations.0002_profile_role_alter_profile_avatar",
-        "documentation": {}
-    },
-    {
-        "label": "Migration",
-        "kind": 6,
-        "importPath": "users.migrations.0003_remove_profile_avatar_profile_profile_image_and_more",
-        "description": "users.migrations.0003_remove_profile_avatar_profile_profile_image_and_more",
-        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('users', '0002_profile_role_alter_profile_avatar'),\n    ]\n    operations = [\n        migrations.RemoveField(\n            model_name='profile',\n            name='avatar',\n        ),\n        migrations.AddField(",
-        "detail": "users.migrations.0003_remove_profile_avatar_profile_profile_image_and_more",
-        "documentation": {}
-    },
-    {
         "label": "UsersConfig",
         "kind": 6,
         "importPath": "users.apps",
@@ -1504,11 +1550,47 @@
         "documentation": {}
     },
     {
-        "label": "SignupForm",
+        "label": "RegisterForm",
         "kind": 6,
         "importPath": "users.forms",
         "description": "users.forms",
-        "peekOfCode": "class SignupForm(UserCreationForm):\n    email = forms.EmailField(required=True)\n    phone = forms.CharField(required=True)\n    role = forms.ChoiceField(choices=Profile.ROLE_CHOICES)\n    class Meta:\n        model = User\n        fields = ('username', 'email', 'password1', 'password2', 'phone', 'role')\n    def save(self, commit=True):\n        user = super().save(commit=False)\n        user.email = self.cleaned_data['email']",
+        "peekOfCode": "class RegisterForm(UserCreationForm):\n    class Meta:\n        model = User\n        fields = ['username', 'first_name', 'last_name',\n                  'password1', 'password2', 'email']\n    def __init__(self, *args, **kwargs):\n        super(UserCreationForm, self).__init__(*args, **kwargs)\n        for fieldname in ['username', 'password1', 'password2']:\n            self.fields[fieldname].help_text = None\nclass CustomRegistrationForm(StyledFormMixin, forms.ModelForm):",
+        "detail": "users.forms",
+        "documentation": {}
+    },
+    {
+        "label": "CustomRegistrationForm",
+        "kind": 6,
+        "importPath": "users.forms",
+        "description": "users.forms",
+        "peekOfCode": "class CustomRegistrationForm(StyledFormMixin, forms.ModelForm):\n    password1 = forms.CharField(widget=forms.PasswordInput)\n    confirm_password = forms.CharField(widget=forms.PasswordInput)\n    class Meta:\n        model = User\n        fields = ['username', 'first_name', 'last_name',\n                  'password1', 'confirm_password', 'email']\n    def clean_email(self):\n        email = self.cleaned_data.get('email')\n        email_exists = User.objects.filter(email=email).exists()",
+        "detail": "users.forms",
+        "documentation": {}
+    },
+    {
+        "label": "LoginForm",
+        "kind": 6,
+        "importPath": "users.forms",
+        "description": "users.forms",
+        "peekOfCode": "class LoginForm(StyledFormMixin, AuthenticationForm):\n    def __init__(self, *arg, **kwargs):\n        super().__init__(*arg, **kwargs)\nclass AssignRoleForm(StyledFormMixin, forms.Form):\n    role = forms.ModelChoiceField(\n        queryset=Group.objects.all(),\n        empty_label=\"Select a Role\"\n    )\nclass CreateGroupForm(StyledFormMixin, forms.ModelForm):\n    permissions = forms.ModelMultipleChoiceField(",
+        "detail": "users.forms",
+        "documentation": {}
+    },
+    {
+        "label": "AssignRoleForm",
+        "kind": 6,
+        "importPath": "users.forms",
+        "description": "users.forms",
+        "peekOfCode": "class AssignRoleForm(StyledFormMixin, forms.Form):\n    role = forms.ModelChoiceField(\n        queryset=Group.objects.all(),\n        empty_label=\"Select a Role\"\n    )\nclass CreateGroupForm(StyledFormMixin, forms.ModelForm):\n    permissions = forms.ModelMultipleChoiceField(\n        queryset=Permission.objects.all(),\n        widget=forms.CheckboxSelectMultiple,\n        required=False,",
+        "detail": "users.forms",
+        "documentation": {}
+    },
+    {
+        "label": "CreateGroupForm",
+        "kind": 6,
+        "importPath": "users.forms",
+        "description": "users.forms",
+        "peekOfCode": "class CreateGroupForm(StyledFormMixin, forms.ModelForm):\n    permissions = forms.ModelMultipleChoiceField(\n        queryset=Permission.objects.all(),\n        widget=forms.CheckboxSelectMultiple,\n        required=False,\n        label='Assign Permission'\n    )\n    class Meta:\n        model = Group\n        fields = ['name', 'permissions']",
         "detail": "users.forms",
         "documentation": {}
     },
@@ -1522,20 +1604,20 @@
         "documentation": {}
     },
     {
-        "label": "create_profile",
+        "label": "send_activation_email",
         "kind": 2,
         "importPath": "users.signals",
         "description": "users.signals",
-        "peekOfCode": "def create_profile(sender, instance, created, **kwargs):\n    if created:\n        Profile.objects.create(user=instance)\n@receiver(post_save, sender=User)\ndef save_profile(sender, instance, **kwargs):\n    instance.profile.save()",
+        "peekOfCode": "def send_activation_email(sender, instance, created, **kwargs):\n    if created:\n        token = default_token_generator.make_token(instance)\n        activation_url = f\"{\n            settings.FRONTEND_URL}/users/activate/{instance.id}/{token}/\"\n        subject = 'Activate Your Account'\n        message = f'Hi {instance.username},\\n\\nPlease activate your account by clicking the link below:\\n{\n            activation_url}\\n\\nThank You!'\n        recipient_list = [instance.email]\n        try:",
         "detail": "users.signals",
         "documentation": {}
     },
     {
-        "label": "save_profile",
+        "label": "assign_role",
         "kind": 2,
         "importPath": "users.signals",
         "description": "users.signals",
-        "peekOfCode": "def save_profile(sender, instance, **kwargs):\n    instance.profile.save()",
+        "peekOfCode": "def assign_role(sender, instance, created, **kwargs):\n    if created:\n        user_group, created = Group.objects.get_or_create(name='User')\n        instance.groups.add(user_group)\n        instance.save()",
         "detail": "users.signals",
         "documentation": {}
     },
@@ -1544,98 +1626,89 @@
         "kind": 5,
         "importPath": "users.urls",
         "description": "users.urls",
-        "peekOfCode": "urlpatterns = [\n    # Authentication\n    path(\"signup/\", views.signup_view, name=\"signup\"),\n    path(\"activate/<uidb64>/<token>/\", views.activate_view, name=\"activate\"),\n    path(\"login/\", views.login_view, name=\"login\"),\n    path(\"logout/\", views.logout_view, name=\"logout\"),\n    # Dashboard\n    path(\"dashboard/view/\", views.dashboard_view, name=\"dashboard_view\"),\n    path(\"dashboard/\", views.dashboard_view, name=\"dashboard\"),\n#    path(\"admin-dashboard/\", views.admin_dashboard, name=\"admin_dashboard\"),",
+        "peekOfCode": "urlpatterns = [\n    path('sign-up/', sign_up, name='sign-up'),\n    path('sign-in/', sign_in, name='sign-in'),\n    path('sign-out/', sign_out, name='logout'),\n    path('activate/<int:user_id>/<str:token>/', activate_user),\n    path('admin/dashboard/', admin_dashboard, name='admin-dashboard'),\n    path('admin/<int:user_id>/assign-role/', assign_role, name='assign-role'),\n    path('admin/create-group/', create_group, name='create-group'),\n    path('admin/group-list/', group_list, name='group-list'),\n]",
         "detail": "users.urls",
         "documentation": {}
     },
     {
-        "label": "signup_view",
+        "label": "is_admin",
         "kind": 2,
         "importPath": "users.views",
         "description": "users.views",
-        "peekOfCode": "def signup_view(request):\n    if request.method == \"POST\":\n        form = UserCreationForm(request.POST)\n        if form.is_valid():\n            user = form.save()\n            # Assign default group\n            group = Group.objects.get(name=\"Participant\")\n            user.groups.add(group)\n            Profile.objects.create(user=user)\n            login(request, user)",
+        "peekOfCode": "def is_admin(user):\n    return user.groups.filter(name='Admin').exists()\ndef sign_up(request):\n    form = CustomRegistrationForm()\n    if request.method == 'POST':\n        form = CustomRegistrationForm(request.POST)\n        if form.is_valid():\n            user = form.save(commit=False)\n            user.set_password(form.cleaned_data.get('password1'))\n            user.is_active = False",
         "detail": "users.views",
         "documentation": {}
     },
     {
-        "label": "login_view",
+        "label": "sign_up",
         "kind": 2,
         "importPath": "users.views",
         "description": "users.views",
-        "peekOfCode": "def login_view(request):\n    if request.method == \"POST\":\n        form = AuthenticationForm(request, data=request.POST)\n        if form.is_valid():\n            user = form.get_user()\n            login(request, user)\n            return redirect(request.GET.get(\"next\", \"dashboard\"))\n    else:\n        form = AuthenticationForm()\n    return render(request, \"users/login.html\", {\"form\": form})",
+        "peekOfCode": "def sign_up(request):\n    form = CustomRegistrationForm()\n    if request.method == 'POST':\n        form = CustomRegistrationForm(request.POST)\n        if form.is_valid():\n            user = form.save(commit=False)\n            user.set_password(form.cleaned_data.get('password1'))\n            user.is_active = False\n            user.save()\n            messages.success(",
         "detail": "users.views",
         "documentation": {}
     },
     {
-        "label": "logout_view",
+        "label": "sign_in",
         "kind": 2,
         "importPath": "users.views",
         "description": "users.views",
-        "peekOfCode": "def logout_view(request):\n    if request.method == \"POST\":\n        logout(request)\n        return redirect('login')\ndef activate_view(request, uidb64, token):\n    try:\n        uid = force_str(urlsafe_base64_decode(uidb64))\n        user = User.objects.get(pk=uid)\n    except Exception:\n        user = None",
+        "peekOfCode": "def sign_in(request):\n    form = LoginForm()\n    if request.method == 'POST':\n        form = LoginForm(data=request.POST)\n        if form.is_valid():\n            user = form.get_user()\n            login(request, user)\n            return redirect('home')\n    return render(request, 'registration/login.html', {'form': form})\n@login_required",
         "detail": "users.views",
         "documentation": {}
     },
     {
-        "label": "activate_view",
+        "label": "sign_out",
         "kind": 2,
         "importPath": "users.views",
         "description": "users.views",
-        "peekOfCode": "def activate_view(request, uidb64, token):\n    try:\n        uid = force_str(urlsafe_base64_decode(uidb64))\n        user = User.objects.get(pk=uid)\n    except Exception:\n        user = None\n    if user and default_token_generator.check_token(user, token):\n        user.is_active = True\n        user.save()\n        login(request, user)",
+        "peekOfCode": "def sign_out(request):\n    if request.method == 'POST':\n        logout(request)\n        return redirect('sign-in')\ndef activate_user(request, user_id, token):\n    try:\n        user = User.objects.get(id=user_id)\n        if default_token_generator.check_token(user, token):\n            user.is_active = True\n            user.save()",
         "detail": "users.views",
         "documentation": {}
     },
     {
-        "label": "dashboard_view",
+        "label": "activate_user",
         "kind": 2,
         "importPath": "users.views",
         "description": "users.views",
-        "peekOfCode": "def dashboard_view(request):\n    user = request.user\n    # Safe profile handling\n    profile, created = Profile.objects.get_or_create(user=user)\n    # Admin dashboard\n    if user.groups.filter(name=\"Admin\").exists():\n        context = {\n            \"profile\": profile,\n            \"total_users\": User.objects.count(),\n            \"total_events\": Event.objects.count(),",
+        "peekOfCode": "def activate_user(request, user_id, token):\n    try:\n        user = User.objects.get(id=user_id)\n        if default_token_generator.check_token(user, token):\n            user.is_active = True\n            user.save()\n            return redirect('sign-in')\n        else:\n            return HttpResponse('Invalid Id or token')\n    except User.DoesNotExist:",
         "detail": "users.views",
         "documentation": {}
     },
     {
-        "label": "create_categories",
+        "label": "admin_dashboard",
         "kind": 2,
-        "importPath": "events_data",
-        "description": "events_data",
-        "peekOfCode": "def create_categories(n=5):\n    categories = []\n    for _ in range(n):\n        cat = Category.objects.create(\n            name=fake.unique.word().capitalize(),\n            description=fake.sentence()\n        )\n        categories.append(cat)\n    return categories\ndef create_events(categories, n=15):",
-        "detail": "events_data",
+        "importPath": "users.views",
+        "description": "users.views",
+        "peekOfCode": "def admin_dashboard(request):\n    users = User.objects.prefetch_related(\n        Prefetch('groups', queryset=Group.objects.all(), to_attr='all_groups')\n    ).all()\n    print(users)\n    for user in users:\n        if user.all_groups:\n            user.group_name = user.all_groups[0].name\n        else:\n            user.group_name = 'No Group Assigned'",
+        "detail": "users.views",
         "documentation": {}
     },
     {
-        "label": "create_events",
+        "label": "assign_role",
         "kind": 2,
-        "importPath": "events_data",
-        "description": "events_data",
-        "peekOfCode": "def create_events(categories, n=15):\n    events = []\n    for _ in range(n):\n        evt = Event.objects.create(\n            name=fake.unique.catch_phrase(),\n            description=fake.text(max_nb_chars=200),\n            date=fake.date_between(start_date='-5d', end_date='+15d'),\n            time=fake.time(),\n            location=fake.city(),\n            category=random.choice(categories)",
-        "detail": "events_data",
+        "importPath": "users.views",
+        "description": "users.views",
+        "peekOfCode": "def assign_role(request, user_id):\n    user = User.objects.get(id=user_id)\n    form = AssignRoleForm()\n    if request.method == 'POST':\n        form = AssignRoleForm(request.POST)\n        if form.is_valid():\n            role = form.cleaned_data.get('role')\n            user.groups.clear()  # Remove old roles\n            user.groups.add(role)\n            messages.success(request, f\"User {",
+        "detail": "users.views",
         "documentation": {}
     },
     {
-        "label": "create_participants",
+        "label": "create_group",
         "kind": 2,
-        "importPath": "events_data",
-        "description": "events_data",
-        "peekOfCode": "def create_participants(events, n=30):\n    for _ in range(n):\n        participant = Participant.objects.create(\n            name=fake.name(),\n            email=fake.unique.email()\n        )\n        participant.events.set(random.sample(events, random.randint(1, 3)))\ndef run():\n    categories = create_categories()\n    events = create_events(categories)",
-        "detail": "events_data",
+        "importPath": "users.views",
+        "description": "users.views",
+        "peekOfCode": "def create_group(request):\n    form = CreateGroupForm()\n    if request.method == 'POST':\n        form = CreateGroupForm(request.POST)\n        if form.is_valid():\n            group = form.save()\n            messages.success(request, f\"Group {\n                             group.name} has been created successfully\")\n            return redirect('create-group')\n    return render(request, 'admin/create_group.html', {'form': form})",
+        "detail": "users.views",
         "documentation": {}
     },
     {
-        "label": "run",
+        "label": "group_list",
         "kind": 2,
-        "importPath": "events_data",
-        "description": "events_data",
-        "peekOfCode": "def run():\n    categories = create_categories()\n    events = create_events(categories)\n    create_participants(events)\n    print(\"Fake data created successfully!\")\nif __name__ == \"__main__\":\n    run()",
-        "detail": "events_data",
-        "documentation": {}
-    },
-    {
-        "label": "fake",
-        "kind": 5,
-        "importPath": "events_data",
-        "description": "events_data",
-        "peekOfCode": "fake = Faker()\nfrom events.models import Category, Event, Participant\ndef create_categories(n=5):\n    categories = []\n    for _ in range(n):\n        cat = Category.objects.create(\n            name=fake.unique.word().capitalize(),\n            description=fake.sentence()\n        )\n        categories.append(cat)",
-        "detail": "events_data",
+        "importPath": "users.views",
+        "description": "users.views",
+        "peekOfCode": "def group_list(request):\n    groups = Group.objects.prefetch_related('permissions').all()\n    return render(request, 'admin/group_list.html', {'groups': groups})\n\"\"\" \n    Admin\n        - Everything\n    Manager\n        - project\n        - event create\n    Employee",
+        "detail": "users.views",
         "documentation": {}
     },
     {
@@ -1645,6 +1718,15 @@
         "description": "manage",
         "peekOfCode": "def main():\n    \"\"\"Run administrative tasks.\"\"\"\n    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'event_management.settings')\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"",
         "detail": "manage",
+        "documentation": {}
+    },
+    {
+        "label": "populate_db",
+        "kind": 2,
+        "importPath": "populate_db",
+        "description": "populate_db",
+        "peekOfCode": "def populate_db():\n    fake = Faker()\n    # Create Event Categories\n    categories = [Category.objects.create(\n        name=fake.word().capitalize(),\n        description=fake.paragraph()\n    ) for _ in range(5)]\n    print(f\"Created {len(categories)} categories.\")\n    # Create Organizers\n    organizers = [Organizer.objects.create(",
+        "detail": "populate_db",
         "documentation": {}
     }
 ]
