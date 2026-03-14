@@ -2,7 +2,8 @@
 module.exports = {
 content: [
 "./templates/**/*.html", // Templates at the project level
-"./**/templates/**/*.html", // Templates inside apps
+"./**/templates/**/*.html",
+'./static/js/**/*.js', // JavaScript files
 ],
 theme: {
 extend: {},
