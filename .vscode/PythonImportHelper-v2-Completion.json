@@ -1392,7 +1392,7 @@
         "kind": 5,
         "importPath": "event_management.settings",
         "description": "event_management.settings",
-        "peekOfCode": "DATABASES = {\n    'default': dj_database_url.config(\n        default='postgresql://event_manager_oyli_user:u93a9HDBDOKilc8CpztPk1X7ufMueBez@dpg-d6li26kr85hc738sa30g-a.oregon-postgres.render.com/event_manager_oyli',\n        conn_max_age=600\n    )\n}\n# For Postgres\n# DATABASES = {\n#     'default': {\n#         'ENGINE': 'django.db.backends.postgresql',",
+        "peekOfCode": "DATABASES = {\n    'default': dj_database_url.config(\n        default=\"postgresql://event_management_db_e9rn_user:sLZZx9o2WwtWxvg3t28EnEfyAfHLJBrb@dpg-d6qass5m5p6s73dvlu3g-a.oregon-postgres.render.com/event_management_db_e9rn\",\n        conn_max_age=600\n    )\n}\n# For Postgres\n# DATABASES = {\n#     'default': {\n#         'ENGINE': 'django.db.backends.postgresql',",
         "detail": "event_management.settings",
         "documentation": {}
     },
@@ -1410,7 +1410,7 @@
         "kind": 5,
         "importPath": "event_management.settings",
         "description": "event_management.settings",
-        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.2/howto/static-files/\nSTATIC_URL = 'static/'\nSTATICFILES_DIRS = [BASE_DIR / \"static\"]\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field",
+        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.2/howto/static-files/\nSTATIC_URL = 'static/'\nSTATIC_ROOT = BASE_DIR / 'staticfiles'\nSTATICFILES_DIRS = [BASE_DIR / \"static\"]\n# Default primary key field type",
         "detail": "event_management.settings",
         "documentation": {}
     },
@@ -1419,7 +1419,7 @@
         "kind": 5,
         "importPath": "event_management.settings",
         "description": "event_management.settings",
-        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.2/howto/static-files/\nSTATIC_URL = 'static/'\nSTATICFILES_DIRS = [BASE_DIR / \"static\"]\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.2/howto/static-files/\nSTATIC_URL = 'static/'\nSTATIC_ROOT = BASE_DIR / 'staticfiles'\nSTATICFILES_DIRS = [BASE_DIR / \"static\"]\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field",
         "detail": "event_management.settings",
         "documentation": {}
     },
@@ -1428,7 +1428,7 @@
         "kind": 5,
         "importPath": "event_management.settings",
         "description": "event_management.settings",
-        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.2/howto/static-files/\nSTATIC_URL = 'static/'\nSTATICFILES_DIRS = [BASE_DIR / \"static\"]\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nMEDIA_URL = '/media/'",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.2/howto/static-files/\nSTATIC_URL = 'static/'\nSTATIC_ROOT = BASE_DIR / 'staticfiles'\nSTATICFILES_DIRS = [BASE_DIR / \"static\"]\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
         "detail": "event_management.settings",
         "documentation": {}
     },
@@ -1437,7 +1437,7 @@
         "kind": 5,
         "importPath": "event_management.settings",
         "description": "event_management.settings",
-        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.2/howto/static-files/\nSTATIC_URL = 'static/'\nSTATICFILES_DIRS = [BASE_DIR / \"static\"]\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nMEDIA_URL = '/media/'\nMEDIA_ROOT = BASE_DIR / 'media'",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.2/howto/static-files/\nSTATIC_URL = 'static/'\nSTATIC_ROOT = BASE_DIR / 'staticfiles'\nSTATICFILES_DIRS = [BASE_DIR / \"static\"]\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nMEDIA_URL = '/media/'",
         "detail": "event_management.settings",
         "documentation": {}
     },
@@ -1446,7 +1446,16 @@
         "kind": 5,
         "importPath": "event_management.settings",
         "description": "event_management.settings",
-        "peekOfCode": "STATIC_URL = 'static/'\nSTATICFILES_DIRS = [BASE_DIR / \"static\"]\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nMEDIA_URL = '/media/'\nMEDIA_ROOT = BASE_DIR / 'media'\nFRONTEND_URL = 'http://127.0.0.1:8000'\nLOGIN_URL = 'sign-in'",
+        "peekOfCode": "STATIC_URL = 'static/'\nSTATIC_ROOT = BASE_DIR / 'staticfiles'\nSTATICFILES_DIRS = [BASE_DIR / \"static\"]\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nMEDIA_URL = '/media/'\nMEDIA_ROOT = BASE_DIR / 'media'\nFRONTEND_URL = 'http://127.0.0.1:8000'\nLOGIN_URL = 'sign-in'",
+        "detail": "event_management.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_ROOT",
+        "kind": 5,
+        "importPath": "event_management.settings",
+        "description": "event_management.settings",
+        "peekOfCode": "STATIC_ROOT = BASE_DIR / 'staticfiles'\nSTATICFILES_DIRS = [BASE_DIR / \"static\"]\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nMEDIA_URL = '/media/'\nMEDIA_ROOT = BASE_DIR / 'media'\nFRONTEND_URL = 'http://127.0.0.1:8000'\nLOGIN_URL = 'sign-in'",
         "detail": "event_management.settings",
         "documentation": {}
     },
@@ -1608,7 +1617,7 @@
         "kind": 2,
         "importPath": "users.signals",
         "description": "users.signals",
-        "peekOfCode": "def send_activation_email(sender, instance, created, **kwargs):\n    if created:\n        token = default_token_generator.make_token(instance)\n        activation_url = f\"{\n            settings.FRONTEND_URL}/users/activate/{instance.id}/{token}/\"\n        subject = 'Activate Your Account'\n        message = f'Hi {instance.username},\\n\\nPlease activate your account by clicking the link below:\\n{\n            activation_url}\\n\\nThank You!'\n        recipient_list = [instance.email]\n        try:",
+        "peekOfCode": "def send_activation_email(sender, instance, created, **kwargs):\n    if created:\n        token = default_token_generator.make_token(instance)\n        activation_url = f\"{settings.FRONTEND_URL}/users/activate/{instance.id}/{token}/\"\n        subject = 'Activate Your Account'\n        message = f'Hi {instance.username},\\n\\nPlease activate your account by clicking the link below:\\n{activation_url}\\n\\nThank You!'\n        recipient_list = [instance.email]\n        try:\n            send_mail(subject, message,\n                      settings.EMAIL_HOST_USER, recipient_list)",
         "detail": "users.signals",
         "documentation": {}
     },
