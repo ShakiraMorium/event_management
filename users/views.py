@@ -121,17 +121,3 @@ def group_list(request):
     groups = Group.objects.prefetch_related('permissions').all()
     return render(request, 'admin/group_list.html', {'groups': groups})
 
-
-""" 
-
-    Admin
-        - Everything
-    Manager
-        - project
-        - event create
-    Employee
-        - Event read
-        - Event update
-    
-    Role Based Access Control (RBAC)
-"""

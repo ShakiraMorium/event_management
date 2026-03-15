@@ -40,14 +40,6 @@
         "documentation": {}
     },
     {
-        "label": "admin",
-        "importPath": "django.contrib",
-        "description": "django.contrib",
-        "isExtraImport": true,
-        "detail": "django.contrib",
-        "documentation": {}
-    },
-    {
         "label": "messages",
         "importPath": "django.contrib",
         "description": "django.contrib",
@@ -562,22 +554,6 @@
         "documentation": {}
     },
     {
-        "label": "include",
-        "importPath": "django.urls",
-        "description": "django.urls",
-        "isExtraImport": true,
-        "detail": "django.urls",
-        "documentation": {}
-    },
-    {
-        "label": "path",
-        "importPath": "django.urls",
-        "description": "django.urls",
-        "isExtraImport": true,
-        "detail": "django.urls",
-        "documentation": {}
-    },
-    {
         "label": "manager_dashboard",
         "importPath": "events.views",
         "description": "events.views",
@@ -635,22 +611,6 @@
     },
     {
         "label": "dashboard",
-        "importPath": "events.views",
-        "description": "events.views",
-        "isExtraImport": true,
-        "detail": "events.views",
-        "documentation": {}
-    },
-    {
-        "label": "home",
-        "importPath": "events.views",
-        "description": "events.views",
-        "isExtraImport": true,
-        "detail": "events.views",
-        "documentation": {}
-    },
-    {
-        "label": "home_view",
         "importPath": "events.views",
         "description": "events.views",
         "isExtraImport": true,
@@ -1190,20 +1150,11 @@
         "documentation": {}
     },
     {
-        "label": "home",
-        "kind": 2,
-        "importPath": "events.views",
-        "description": "events.views",
-        "peekOfCode": "def home(request):\n    return render(request, 'home.html')\n# Create your views here.\ndef is_manager(user):\n    return user.groups.filter(name='Manager').exists()\ndef is_employee(user):\n    return user.groups.filter(name='Manager').exists()\n@user_passes_test(is_manager, login_url='no-permission')\ndef manager_dashboard(request):\n    type = request.GET.get('type', 'all')",
-        "detail": "events.views",
-        "documentation": {}
-    },
-    {
         "label": "is_manager",
         "kind": 2,
         "importPath": "events.views",
         "description": "events.views",
-        "peekOfCode": "def is_manager(user):\n    return user.groups.filter(name='Manager').exists()\ndef is_employee(user):\n    return user.groups.filter(name='Manager').exists()\n@user_passes_test(is_manager, login_url='no-permission')\ndef manager_dashboard(request):\n    type = request.GET.get('type', 'all')\n    # print(type)\n    counts = Event.objects.aggregate(\n        total=Count('id'),",
+        "peekOfCode": "def is_manager(user):\n    return user.groups.filter(name='Manager').exists()\ndef is_employee(user):\n    return user.groups.filter(name='Employee').exists()\n@user_passes_test(is_manager, login_url='no-permission')\ndef manager_dashboard(request):\n    type = request.GET.get('type', 'all')\n    # print(type)\n    counts = Event.objects.aggregate(\n        total=Count('id'),",
         "detail": "events.views",
         "documentation": {}
     },
@@ -1212,7 +1163,7 @@
         "kind": 2,
         "importPath": "events.views",
         "description": "events.views",
-        "peekOfCode": "def is_employee(user):\n    return user.groups.filter(name='Manager').exists()\n@user_passes_test(is_manager, login_url='no-permission')\ndef manager_dashboard(request):\n    type = request.GET.get('type', 'all')\n    # print(type)\n    counts = Event.objects.aggregate(\n        total=Count('id'),\n        completed=Count('id', filter=Q(status='COMPLETED')),\n        in_progress=Count('id', filter=Q(status='IN_PROGRESS')),",
+        "peekOfCode": "def is_employee(user):\n    return user.groups.filter(name='Employee').exists()\n@user_passes_test(is_manager, login_url='no-permission')\ndef manager_dashboard(request):\n    type = request.GET.get('type', 'all')\n    # print(type)\n    counts = Event.objects.aggregate(\n        total=Count('id'),\n        completed=Count('id', filter=Q(status='COMPLETED')),\n        in_progress=Count('id', filter=Q(status='IN_PROGRESS')),",
         "detail": "events.views",
         "documentation": {}
     },
@@ -1257,7 +1208,7 @@
         "kind": 2,
         "importPath": "events.views",
         "description": "events.views",
-        "peekOfCode": "def delete_event(request, id):\n    if request.method == 'POST':\n        event = Event.objects.get(id=id)\n        event.delete()\n        messages.success(request, 'Event Deleted Successfully')\n        return redirect('manager-dashboard')\n    else:\n        messages.error(request, 'Something went wrong')\n        return redirect('manager-dashboard')\n@login_required",
+        "peekOfCode": "def delete_event(request, id):\n    if request.method == 'POST':\n        event = Event.objects.get(id=id)\n        event.delete()\n        messages.success(request, 'event Deleted Successfully')\n        return redirect('manager-dashboard')\n    else:\n        messages.error(request, 'Something went wrong')\n        return redirect('manager-dashboard')\n@login_required",
         "detail": "events.views",
         "documentation": {}
     },
@@ -1266,7 +1217,7 @@
         "kind": 2,
         "importPath": "events.views",
         "description": "events.views",
-        "peekOfCode": "def view_event(request):\n    projects = Project.objects.annotate(\n        num_event=Count('event')).order_by('num_event')\n    return render(request, \"show_event.html\", {\"projects\": projects})\n@login_required\n@permission_required(\"events.view_event\", login_url='no-permission')\ndef event_details(request, event_id):\n    event = Event.objects.get(id=event_id)\n    status_choices = Event.STATUS_CHOICES\n    if request.method == 'POST':",
+        "peekOfCode": "def view_event(request):\n    projects = Project.objects.annotate(\n        num_event=Count('event')).order_by('num_event')\n    return render(request, \"show_event.html\", {\"projects\": projects})\n@login_required\n@permission_required(\"events.view_event\", login_url='no-permission')\ndef event_details(request, event_id):\n    event = event.objects.get(id=event_id)\n    status_choices = event.STATUS_CHOICES\n    if request.method == 'POST':",
         "detail": "events.views",
         "documentation": {}
     },
@@ -1275,7 +1226,7 @@
         "kind": 2,
         "importPath": "events.views",
         "description": "events.views",
-        "peekOfCode": "def event_details(request, event_id):\n    event = Event.objects.get(id=event_id)\n    status_choices = Event.STATUS_CHOICES\n    if request.method == 'POST':\n        selected_status = request.POST.get('event_status')\n        print(selected_status)\n        event.status = selected_status\n        event.save()\n        return redirect('event-details', event.id)\n    return render(request, 'event_details.html', {\"event\":event, 'status_choices': status_choices})",
+        "peekOfCode": "def event_details(request, event_id):\n    event = event.objects.get(id=event_id)\n    status_choices = event.STATUS_CHOICES\n    if request.method == 'POST':\n        selected_status = request.POST.get('event_status')\n        print(selected_status)\n        event.status = selected_status\n        event.save()\n        return redirect('event-details', event.id)\n    return render(request, 'event_details.html', {\"event\": event, 'status_choices': status_choices})",
         "detail": "events.views",
         "documentation": {}
     },
@@ -1523,15 +1474,6 @@
         "documentation": {}
     },
     {
-        "label": "urlpatterns",
-        "kind": 5,
-        "importPath": "event_management.views",
-        "description": "event_management.views",
-        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('', home_view, name='home'),  # root path shows homepage\n    path('events/', include('events.urls')),\n]",
-        "detail": "event_management.views",
-        "documentation": {}
-    },
-    {
         "label": "application",
         "kind": 5,
         "importPath": "event_management.wsgi",
@@ -1716,7 +1658,7 @@
         "kind": 2,
         "importPath": "users.views",
         "description": "users.views",
-        "peekOfCode": "def group_list(request):\n    groups = Group.objects.prefetch_related('permissions').all()\n    return render(request, 'admin/group_list.html', {'groups': groups})\n\"\"\" \n    Admin\n        - Everything\n    Manager\n        - project\n        - event create\n    Employee",
+        "peekOfCode": "def group_list(request):\n    groups = Group.objects.prefetch_related('permissions').all()\n    return render(request, 'admin/group_list.html', {'groups': groups})",
         "detail": "users.views",
         "documentation": {}
     },

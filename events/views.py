@@ -9,22 +9,21 @@ from django.contrib.auth.decorators import user_passes_test, login_required, per
 from users.views import is_admin
 
 
-def home(request):
-    return render(request, 'home.html')
+# def home(request):
+#     return render(request, "home.html")
 
-# Create your views here.
 def is_manager(user):
     return user.groups.filter(name='Manager').exists()
 
 
 def is_employee(user):
-    return user.groups.filter(name='Manager').exists()
+    return user.groups.filter(name='Employee').exists()
 
 
 @user_passes_test(is_manager, login_url='no-permission')
 def manager_dashboard(request):
 
-  
+    
     type = request.GET.get('type', 'all')
     # print(type)
 
@@ -35,7 +34,7 @@ def manager_dashboard(request):
         pending=Count('id', filter=Q(status='PENDING')),
     )
 
-  
+   
 
     base_query = Event.objects.select_related(
         'details').prefetch_related('assigned_to')
@@ -43,14 +42,14 @@ def manager_dashboard(request):
     if type == 'completed':
         events = base_query.filter(status='COMPLETED')
     elif type == 'in-progress':
-        events = base_query.filter(status='IN_PROGRESS')
+        events  = base_query.filter(status='IN_PROGRESS')
     elif type == 'pending':
         events = base_query.filter(status='PENDING')
     elif type == 'all':
         events = base_query.all()
 
     context = {
-        "events": events,
+        "events ": events,
         "counts": counts,
         "role": 'manager'
     }
@@ -123,7 +122,7 @@ def delete_event(request, id):
     if request.method == 'POST':
         event = Event.objects.get(id=id)
         event.delete()
-        messages.success(request, 'Event Deleted Successfully')
+        messages.success(request, 'event Deleted Successfully')
         return redirect('manager-dashboard')
     else:
         messages.error(request, 'Something went wrong')
@@ -141,8 +140,8 @@ def view_event(request):
 @login_required
 @permission_required("events.view_event", login_url='no-permission')
 def event_details(request, event_id):
-    event = Event.objects.get(id=event_id)
-    status_choices = Event.STATUS_CHOICES
+    event = event.objects.get(id=event_id)
+    status_choices = event.STATUS_CHOICES
 
     if request.method == 'POST':
         selected_status = request.POST.get('event_status')
@@ -151,7 +150,7 @@ def event_details(request, event_id):
         event.save()
         return redirect('event-details', event.id)
 
-    return render(request, 'event_details.html', {"event":event, 'status_choices': status_choices})
+    return render(request, 'event_details.html', {"event": event, 'status_choices': status_choices})
 
 
 @login_required
