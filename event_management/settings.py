@@ -100,6 +100,8 @@ DATABASES = {
     )
 }
 
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+
 # For Postgres
 # DATABASES = {
 #     'default': {
@@ -160,3 +162,4 @@ MEDIA_ROOT = BASE_DIR / 'media'
 FRONTEND_URL = 'http://127.0.0.1:8000'
 
 LOGIN_URL = 'sign-in'
+
